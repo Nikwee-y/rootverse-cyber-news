@@ -226,58 +226,85 @@ def calculate_score(article):
         article["summary"]
     ).lower()
 
-    score = SOURCE_WEIGHTS.get(
+    score = 0
+
+    # ---------------------------------------------
+    # SOURCE RELEVANCE: 0–2 points
+    # ---------------------------------------------
+
+    source_scores = {
+        "CISA": 2,
+        "CIS/MS-ISAC": 2,
+        "KrebsOnSecurity": 1,
+        "BleepingComputer": 1,
+    }
+
+    score += source_scores.get(
         article["source"],
-        5
+        0
     )
 
-    severity = "INFO"
+    # ---------------------------------------------
+    # THREAT SEVERITY: 0–5 points
+    # ---------------------------------------------
 
-    # Critical
-    for keyword in CRITICAL_KEYWORDS:
+    if any(
+        keyword in text
+        for keyword in CRITICAL_KEYWORDS
+    ):
+        score += 5
 
-        if keyword in text:
+    elif any(
+        keyword in text
+        for keyword in HIGH_KEYWORDS
+    ):
+        score += 4
 
-            score += 10
-            severity = "CRITICAL"
-            break
+    elif any(
+        keyword in text
+        for keyword in MEDIUM_KEYWORDS
+    ):
+        score += 2
 
-    # High
-    if severity == "INFO":
+    # ---------------------------------------------
+    # RECENCY: 0–2 points
+    # ---------------------------------------------
 
-        for keyword in HIGH_KEYWORDS:
-
-            if keyword in text:
-
-                score += 7
-                severity = "HIGH"
-                break
-
-    # Medium
-    if severity == "INFO":
-
-        for keyword in MEDIUM_KEYWORDS:
-
-            if keyword in text:
-
-                score += 4
-                severity = "MEDIUM"
-                break
-
-    # Recency bonus
     age_hours = (
         datetime.now(timezone.utc)
         - article["published"]
     ).total_seconds() / 3600
 
     if age_hours <= 6:
-        score += 5
-
-    elif age_hours <= 12:
-        score += 3
+        score += 2
 
     elif age_hours <= 24:
-        score += 2
+        score += 1
+
+    # ---------------------------------------------
+    # FINAL SCORE: 0–10
+    # ---------------------------------------------
+
+    score = min(score, 10)
+
+    # ---------------------------------------------
+    # SEVERITY
+    # ---------------------------------------------
+
+    if score >= 9:
+        severity = "CRITICAL"
+
+    elif score >= 7:
+        severity = "VERY HIGH"
+
+    elif score >= 5:
+        severity = "HIGH"
+
+    elif score >= 3:
+        severity = "MEDIUM"
+
+    else:
+        severity = "INFO"
 
     article["score"] = score
     article["severity"] = severity
@@ -440,7 +467,8 @@ def severity_icon(severity):
 
     icons = {
         "CRITICAL": "🚨",
-        "HIGH": "🔴",
+        "VERY HIGH": "🔴",
+        "HIGH": "🟠",
         "MEDIUM": "🟡",
         "INFO": "🔵"
     }
@@ -482,7 +510,8 @@ def send_to_discord(articles):
             "footer": {
                 "text": (
                     f"RootVerse Cyber News • "
-                    f"Score: {article['score']}"
+                    f"Security Score: "
+                    f"{article['score']}/10"
                 )
             }
         }
@@ -494,7 +523,7 @@ def send_to_discord(articles):
         "username": "RootVerse Cyber News",
 
         "content": (
-            "🌐 **ROOTVERSE | DAILY CYBER NEWS**\n"
+            "🌐 **ROOTVERSE DAILY CYBER BRIEF**\n"
             f"📅 {today}\n"
             "━━━━━━━━━━━━━━━━━━━━\n"
             "🏆 **Top Cybersecurity Stories**"
