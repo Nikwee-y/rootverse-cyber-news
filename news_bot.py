@@ -2,6 +2,7 @@ import os
 import re
 import json
 import html
+import time
 import requests
 import feedparser
 
@@ -10,14 +11,22 @@ from difflib import SequenceMatcher
 from datetime import datetime, timezone, timedelta
 
 
-DISCORD_WEBHOOK = os.getenv("DISCORD_WEBHOOK")
+# ============================================================
+# CONFIGURATION
+# ============================================================
 
+DISCORD_WEBHOOK = os.getenv("DISCORD_WEBHOOK")
 SEEN_FILE = "seen_articles.json"
 
 MAX_ARTICLES_PER_FEED = 10
-MAX_FINAL_ARTICLES = 10          # up to 10 per run = up to ~20/day
+MAX_FINAL_ARTICLES = 10
 ARTICLE_MAX_AGE_HOURS = 36
+DISCORD_DELAY_SECONDS = 1
 
+
+# ============================================================
+# RSS SOURCES
+# ============================================================
 
 RSS_FEEDS = {
     "CISA": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
@@ -27,21 +36,9 @@ RSS_FEEDS = {
 }
 
 
-# --------------------------------------------------
-# SOURCE IMPORTANCE
-# --------------------------------------------------
-
-SOURCE_WEIGHTS = {
-    "CISA": 10,
-    "CIS/MS-ISAC": 9,
-    "KrebsOnSecurity": 8,
-    "BleepingComputer": 8,
-}
-
-
-# --------------------------------------------------
+# ============================================================
 # SECURITY KEYWORDS
-# --------------------------------------------------
+# ============================================================
 
 CRITICAL_KEYWORDS = [
     "remote code execution",
@@ -78,33 +75,224 @@ MEDIUM_KEYWORDS = [
     "botnet",
     "security flaw",
     "cyberattack",
+    "ddos",
+    "denial of service",
 ]
 
 
-# --------------------------------------------------
+# ============================================================
+# ATTACK CLASSIFICATION
+# ============================================================
+
+ATTACK_TYPES = {
+    "Ransomware": [
+        "ransomware",
+        "ransom",
+        "encrypted files",
+        "file encryption",
+    ],
+
+    "Phishing / Social Engineering": [
+        "phishing",
+        "spear phishing",
+        "social engineering",
+        "credential harvesting",
+        "fake login",
+    ],
+
+    "Malware": [
+        "malware",
+        "trojan",
+        "backdoor",
+        "infostealer",
+        "spyware",
+        "loader",
+        "remote access trojan",
+        "rat",
+    ],
+
+    "Vulnerability / Exploitation": [
+        "vulnerability",
+        "exploit",
+        "exploitation",
+        "zero-day",
+        "zero day",
+        "remote code execution",
+        "rce",
+        "security flaw",
+    ],
+
+    "Data Breach": [
+        "data breach",
+        "breached",
+        "stolen data",
+        "data leak",
+        "exposed data",
+        "records exposed",
+    ],
+
+    "Credential Attack": [
+        "credential theft",
+        "stolen credentials",
+        "password theft",
+        "account takeover",
+        "credential stuffing",
+        "password spraying",
+        "brute force",
+    ],
+
+    "Supply Chain Attack": [
+        "supply chain attack",
+        "supply-chain attack",
+        "compromised package",
+        "malicious package",
+        "dependency attack",
+        "third-party compromise",
+    ],
+
+    "DDoS / DoS": [
+        "ddos",
+        "denial of service",
+        "distributed denial",
+    ],
+
+    "Privilege Escalation": [
+        "privilege escalation",
+        "local privilege escalation",
+        "lpe",
+    ],
+
+    "Command / Code Injection": [
+        "command injection",
+        "sql injection",
+        "code injection",
+        "template injection",
+    ],
+
+    "Authentication Bypass": [
+        "authentication bypass",
+        "auth bypass",
+        "bypass authentication",
+        "unauthenticated access",
+    ],
+
+    "APT / Targeted Campaign": [
+        "apt",
+        "advanced persistent threat",
+        "targeted campaign",
+        "espionage campaign",
+    ],
+}
+
+
+# ============================================================
+# IMPACT
+# ============================================================
+
+IMPACT = {
+    "Ransomware":
+        "Can disrupt operations, encrypt systems and cause data loss, extortion or recovery costs.",
+
+    "Phishing / Social Engineering":
+        "Can trick users into revealing credentials, approving malicious actions or opening malicious content.",
+
+    "Malware":
+        "Can provide attackers with persistence, information theft, remote access or a foothold inside systems.",
+
+    "Vulnerability / Exploitation":
+        "A vulnerable product may allow attackers to compromise systems before defenders can patch or mitigate it.",
+
+    "Data Breach":
+        "Exposed information can lead to identity theft, fraud, privacy loss and further targeted attacks.",
+
+    "Credential Attack":
+        "Compromised credentials can lead to account takeover and unauthorized access to internal resources.",
+
+    "Supply Chain Attack":
+        "Compromising a trusted vendor, package or dependency can spread the attack to downstream organizations.",
+
+    "DDoS / DoS":
+        "Can make applications or network services unavailable to legitimate users.",
+
+    "Privilege Escalation":
+        "Can turn limited access into higher-level control over a system.",
+
+    "Command / Code Injection":
+        "Can cause an application or server to execute attacker-controlled commands or code.",
+
+    "Authentication Bypass":
+        "Can allow access without satisfying the intended authentication controls.",
+
+    "APT / Targeted Campaign":
+        "Long-running targeted activity can enable espionage, persistence and theft of sensitive information.",
+}
+
+
+# ============================================================
+# WHAT TO LEARN
+# ============================================================
+
+LEARN = {
+    "Ransomware":
+        "Learn endpoint detection, backups, segmentation, incident response and containment.",
+
+    "Phishing / Social Engineering":
+        "Learn email security, URL analysis, identity protection, MFA and awareness.",
+
+    "Malware":
+        "Learn IOC analysis, process investigation, persistence hunting, EDR and malware triage.",
+
+    "Vulnerability / Exploitation":
+        "Learn vulnerability management, CVE analysis, patching and exploit detection.",
+
+    "Data Breach":
+        "Learn access control, data protection, logging, DLP and incident response.",
+
+    "Credential Attack":
+        "Learn MFA, password security, identity monitoring and authentication logs.",
+
+    "Supply Chain Attack":
+        "Learn dependency security, software inventory, package integrity and third-party risk.",
+
+    "DDoS / DoS":
+        "Learn traffic analysis, rate limiting, network protection and availability monitoring.",
+
+    "Privilege Escalation":
+        "Learn least privilege, OS hardening, endpoint monitoring and escalation detection.",
+
+    "Command / Code Injection":
+        "Learn secure input handling, application logging, WAF controls and injection detection.",
+
+    "Authentication Bypass":
+        "Learn secure authentication, access-control testing, MFA and authorization monitoring.",
+
+    "APT / Targeted Campaign":
+        "Learn threat intelligence, MITRE ATT&CK, hunting and incident response.",
+}
+
+
+# ============================================================
 # CLEAN HTML
-# --------------------------------------------------
+# ============================================================
 
 def clean_html(text):
-    if not text:
-        return ""
+    soup = BeautifulSoup(
+        html.unescape(text or ""),
+        "html.parser"
+    )
 
-    text = html.unescape(text)
-
-    soup = BeautifulSoup(text, "html.parser")
-
-    text = soup.get_text(" ", strip=True)
-
-    text = re.sub(r"\s+", " ", text)
-
-    return text.strip()
+    return re.sub(
+        r"\s+",
+        " ",
+        soup.get_text(" ", strip=True)
+    ).strip()
 
 
-# --------------------------------------------------
-# LOAD PREVIOUSLY POSTED ARTICLES
-# --------------------------------------------------
+# ============================================================
+# LOAD SEEN ARTICLES
+# ============================================================
 
-def load_seen_articles():
+def load_seen():
 
     if not os.path.exists(SEEN_FILE):
         return {
@@ -113,91 +301,106 @@ def load_seen_articles():
         }
 
     try:
-        with open(SEEN_FILE, "r", encoding="utf-8") as file:
-            return json.load(file)
+
+        with open(
+            SEEN_FILE,
+            encoding="utf-8"
+        ) as file:
+
+            data = json.load(file)
+
+            return {
+                "urls": data.get("urls", []),
+                "titles": data.get("titles", [])
+            }
 
     except Exception:
+
         return {
             "urls": [],
             "titles": []
         }
 
 
-# --------------------------------------------------
-# SAVE ARTICLE HISTORY
-# --------------------------------------------------
+# ============================================================
+# SAVE SEEN ARTICLES
+# ============================================================
 
-def save_seen_articles(seen):
+def save_seen(seen):
 
-    # Keep the history reasonably small
-    seen["urls"] = seen["urls"][-500:]
-    seen["titles"] = seen["titles"][-500:]
+    seen["urls"] = seen["urls"][-1000:]
+    seen["titles"] = seen["titles"][-1000:]
 
-    with open(SEEN_FILE, "w", encoding="utf-8") as file:
-        json.dump(seen, file, indent=2)
+    with open(
+        SEEN_FILE,
+        "w",
+        encoding="utf-8"
+    ) as file:
+
+        json.dump(
+            seen,
+            file,
+            indent=2
+        )
 
 
-# --------------------------------------------------
-# TITLE NORMALIZATION
-# --------------------------------------------------
+# ============================================================
+# NORMALIZE TITLE
+# ============================================================
 
 def normalize_title(title):
-
-    title = title.lower()
 
     title = re.sub(
         r"[^a-z0-9\s]",
         "",
-        title
+        title.lower()
     )
 
-    title = re.sub(
+    return re.sub(
         r"\s+",
         " ",
         title
+    ).strip()
+
+
+# ============================================================
+# CHECK SIMILAR TITLE
+# ============================================================
+
+def is_similar_title(
+    title,
+    existing_titles
+):
+
+    current = normalize_title(title)
+
+    return any(
+        SequenceMatcher(
+            None,
+            current,
+            old
+        ).ratio() >= 0.88
+        for old in existing_titles
     )
 
-    return title.strip()
 
+# ============================================================
+# ARTICLE DATE
+# ============================================================
 
-# --------------------------------------------------
-# CHECK DUPLICATE TITLE
-# --------------------------------------------------
+def article_date(entry):
 
-def is_similar_title(title, existing_titles):
-
-    normalized = normalize_title(title)
-
-    for old_title in existing_titles:
-
-        ratio = SequenceMatcher(
-            None,
-            normalized,
-            old_title
-        ).ratio()
-
-        if ratio >= 0.88:
-            return True
-
-    return False
-
-
-# --------------------------------------------------
-# GET ARTICLE DATE
-# --------------------------------------------------
-
-def get_article_datetime(entry):
-
-    for field in [
+    for field in (
         "published_parsed",
         "updated_parsed"
-    ]:
+    ):
 
         parsed = entry.get(field)
 
         if parsed:
 
             try:
+
                 return datetime(
                     parsed.tm_year,
                     parsed.tm_mon,
@@ -214,107 +417,129 @@ def get_article_datetime(entry):
     return datetime.now(timezone.utc)
 
 
-# --------------------------------------------------
-# CALCULATE NEWS SCORE
-# --------------------------------------------------
+# ============================================================
+# CALCULATE SECURITY SCORE
+# ============================================================
 
 def calculate_score(article):
 
     text = (
-        article["title"] +
-        " " +
-        article["summary"]
+        article["title"]
+        + " "
+        + article["summary"]
     ).lower()
 
-    score = 0
-
-    # ---------------------------------------------
-    # SOURCE RELEVANCE: 0–2 points
-    # ---------------------------------------------
-
-    source_scores = {
+    source_score = {
         "CISA": 2,
         "CIS/MS-ISAC": 2,
         "KrebsOnSecurity": 1,
         "BleepingComputer": 1,
     }
 
-    score += source_scores.get(
+    score = source_score.get(
         article["source"],
         0
     )
-
-    # ---------------------------------------------
-    # THREAT SEVERITY: 0–5 points
-    # ---------------------------------------------
 
     if any(
         keyword in text
         for keyword in CRITICAL_KEYWORDS
     ):
+
         score += 5
 
     elif any(
         keyword in text
         for keyword in HIGH_KEYWORDS
     ):
+
         score += 4
 
     elif any(
         keyword in text
         for keyword in MEDIUM_KEYWORDS
     ):
+
         score += 2
 
-    # ---------------------------------------------
-    # RECENCY: 0–2 points
-    # ---------------------------------------------
-
-    age_hours = (
+    age = (
         datetime.now(timezone.utc)
         - article["published"]
     ).total_seconds() / 3600
 
-    if age_hours <= 6:
+    if age <= 6:
+
         score += 2
 
-    elif age_hours <= 24:
+    elif age <= 24:
+
         score += 1
 
-    # ---------------------------------------------
-    # FINAL SCORE: 0–10
-    # ---------------------------------------------
+    article["score"] = min(
+        score,
+        10
+    )
 
-    score = min(score, 10)
+    if article["score"] >= 9:
 
-    # ---------------------------------------------
-    # SEVERITY
-    # ---------------------------------------------
+        article["severity"] = "CRITICAL"
 
-    if score >= 9:
-        severity = "CRITICAL"
+    elif article["score"] >= 7:
 
-    elif score >= 7:
-        severity = "VERY HIGH"
+        article["severity"] = "VERY HIGH"
 
-    elif score >= 5:
-        severity = "HIGH"
+    elif article["score"] >= 5:
 
-    elif score >= 3:
-        severity = "MEDIUM"
+        article["severity"] = "HIGH"
+
+    elif article["score"] >= 3:
+
+        article["severity"] = "MEDIUM"
 
     else:
-        severity = "INFO"
 
-    article["score"] = score
-    article["severity"] = severity
+        article["severity"] = "INFO"
 
     return article
 
 
-# --------------------------------------------------
+# ============================================================
+# CLASSIFY ATTACK TYPE
+# ============================================================
+
+def classify(article):
+
+    text = (
+        article["title"]
+        + " "
+        + article["summary"]
+    ).lower()
+
+    found = []
+
+    for attack_type, keywords in ATTACK_TYPES.items():
+
+        if any(
+            keyword in text
+            for keyword in keywords
+        ):
+
+            found.append(
+                attack_type
+            )
+
+    if found:
+
+        return " + ".join(
+            found[:2]
+        )
+
+    return "Cybersecurity Incident / Security Update"
+
+
+# ============================================================
 # FETCH NEWS
-# --------------------------------------------------
+# ============================================================
 
 def fetch_news(seen):
 
@@ -322,16 +547,22 @@ def fetch_news(seen):
 
     cutoff = (
         datetime.now(timezone.utc)
-        - timedelta(hours=ARTICLE_MAX_AGE_HOURS)
+        - timedelta(
+            hours=ARTICLE_MAX_AGE_HOURS
+        )
     )
 
     for source, feed_url in RSS_FEEDS.items():
 
-        print(f"Reading {source}...")
+        print(
+            f"Reading {source}..."
+        )
 
         try:
 
-            feed = feedparser.parse(feed_url)
+            feed = feedparser.parse(
+                feed_url
+            )
 
             for entry in feed.entries[
                 :MAX_ARTICLES_PER_FEED
@@ -356,19 +587,19 @@ def fetch_news(seen):
                     )
                 )
 
-                published = get_article_datetime(
+                published = article_date(
                     entry
                 )
 
-                # Ignore old articles
                 if published < cutoff:
                     continue
 
-                # Ignore URLs already posted
+                if not link:
+                    continue
+
                 if link in seen["urls"]:
                     continue
 
-                # Ignore titles already posted
                 if is_similar_title(
                     title,
                     seen["titles"]
@@ -383,17 +614,18 @@ def fetch_news(seen):
                     "published": published
                 }
 
-                # Score the article
-                # Score the article
-                article = calculate_score(
+                calculate_score(
                     article
                 )
 
-                # Classify the article
-                article["attack_type"] = classify(article)
+                article["attack_type"] = classify(
+                    article
+                )
 
-                # Get primary attack type for impact and learning
-                primary = article["attack_type"].split(" + ")[0]
+                primary = (
+                    article["attack_type"]
+                    .split(" + ")[0]
+                )
 
                 article["impact"] = IMPACT.get(
                     primary,
@@ -405,7 +637,9 @@ def fetch_news(seen):
                     "Learn how defenders detect, investigate, contain and remediate this type of security event."
                 )
 
-                articles.append(article)
+                articles.append(
+                    article
+                )
 
         except Exception as error:
 
@@ -416,17 +650,17 @@ def fetch_news(seen):
     return articles
 
 
-# --------------------------------------------------
-# REMOVE DUPLICATES FROM CURRENT BATCH
-# --------------------------------------------------
+# ============================================================
+# REMOVE CURRENT BATCH DUPLICATES
+# ============================================================
 
-def remove_current_duplicates(articles):
+def remove_duplicates(articles):
 
     unique = []
 
     for article in sorted(
         articles,
-        key=lambda x: x["score"],
+        key=lambda item: item["score"],
         reverse=True
     ):
 
@@ -454,112 +688,135 @@ def remove_current_duplicates(articles):
                 break
 
         if not duplicate:
-            unique.append(article)
+
+            unique.append(
+                article
+            )
 
     return unique
 
 
-# --------------------------------------------------
-# SHORTEN SUMMARY
-# --------------------------------------------------
+# ============================================================
+# CREATE 5–10 NUMBERED NEWS POINTS
+# ============================================================
 
-def shorten_summary(text, limit=500):
+def make_numbered_points(
+    article,
+    minimum=5,
+    maximum=10
+):
 
-    text = text.strip()
-
-    if len(text) <= limit:
-        return text
-
-    return text[:limit].rsplit(
-        " ",
-        1
-    )[0] + "..."
-
-
-# --------------------------------------------------
-# DISCORD EMBED COLOR / ICON
-# --------------------------------------------------
-
-def severity_icon(severity):
-
-    icons = {
-        "CRITICAL": "🚨",
-        "VERY HIGH": "🔴",
-        "HIGH": "🟠",
-        "MEDIUM": "🟡",
-        "INFO": "🔵"
-    }
-
-    return icons.get(
-        severity,
-        "🔵"
-    )
-
-
-# --------------------------------------------------
-# MAKE 5–10 NUMBERED NEWS POINTS
-# --------------------------------------------------
-
-def make_numbered_points(article, minimum=5, maximum=10):
-
-    text = re.sub(
+    summary = re.sub(
         r"\s+",
         " ",
-        article.get("summary", "")
+        article.get(
+            "summary",
+            ""
+        )
     ).strip()
 
     sentences = [
-        s.strip()
-        for s in re.split(r"(?<=[.!?])\s+", text)
-        if len(s.strip()) > 20
+        sentence.strip()
+        for sentence in re.split(
+            r"(?<=[.!?])\s+",
+            summary
+        )
+        if len(sentence.strip()) > 20
     ]
 
     points = []
 
     def add_point(text):
 
-        text = re.sub(r"\s+", " ", text).strip()
+        text = re.sub(
+            r"\s+",
+            " ",
+            text
+        ).strip()
 
         if (
             text
             and text not in points
             and len(points) < maximum
         ):
-            points.append(text)
 
-    # Keep factual information from the original RSS summary.
+            points.append(
+                text
+            )
+
+    # Use factual information from the RSS source first.
     for sentence in sentences:
-        add_point(sentence)
 
-    # If the source summary is too short, add only general defensive context.
-    extra_points = [
+        add_point(
+            sentence
+        )
+
+    # Free fallback points if the RSS summary is short.
+    fallback_points = [
+
         f"Reported by {article['source']}.",
+
         f"The report is classified as {article['attack_type']}.",
-        "The event is relevant to cybersecurity monitoring and defense.",
-        "Security teams should review the affected technology or environment.",
-        "Defenders should check for related indicators and suspicious activity.",
-        "Organizations should review applicable patches, mitigations or vendor guidance.",
-        "Monitoring and incident-response procedures should be followed where relevant."
+
+        f"Security score for this report is {article['score']}/10.",
+
+        article["impact"],
+
+        article["learning"],
+
+        "Security teams should review related logs and indicators where applicable.",
+
+        "Organizations should review vendor guidance, patches or mitigations where applicable.",
     ]
 
-    for point in extra_points:
+    for point in fallback_points:
 
         if len(points) >= minimum:
             break
 
-        add_point(point)
+        add_point(
+            point
+        )
 
     return "\n".join(
         f"{number}. {point}"
-        for number, point in enumerate(points[:maximum], 1)
+        for number, point
+        in enumerate(
+            points,
+            1
+        )
     )
 
 
-# --------------------------------------------------
-# SEND NEWS TO DISCORD
-# --------------------------------------------------
+# ============================================================
+# SEVERITY ICON
+# ============================================================
 
-def send_to_discord(articles):
+def severity_icon(
+    severity
+):
+
+    return {
+        "CRITICAL": "🚨",
+        "VERY HIGH": "🔴",
+        "HIGH": "🟠",
+        "MEDIUM": "🟡",
+        "INFO": "🔵"
+    }.get(
+        severity,
+        "🔵"
+    )
+
+
+# ============================================================
+# SEND TO DISCORD
+# ============================================================
+
+def send_to_discord(
+    articles
+):
+
+    posted = []
 
     for article in articles:
 
@@ -570,37 +827,46 @@ def send_to_discord(articles):
         )
 
         description = (
+
             f"**{severity_icon(article['severity'])} "
             f"{article['severity']} • "
-            f"Security Score: {article['score']}/10**\n\n"
+            f"Security Score: "
+            f"{article['score']}/10**\n\n"
 
-            f"🎯 **Attack Type:**\n"
+            f"🎯 **Attack Type**\n"
             f"{article['attack_type']}\n\n"
 
-            f"💥 **What Happened / Impact:**\n"
+            f"💥 **What Happened / Impact**\n"
             f"1. {article['impact']}\n\n"
 
-            f"📚 **What You Should Learn:**\n"
+            f"📚 **What You Should Learn**\n"
             f"1. {article['learning']}\n\n"
 
-            f"📰 **News Summary:**\n"
+            f"📰 **News Summary**\n"
             f"{summary_points}"
         )
 
         embed = {
+
             "title": article["title"][:256],
+
             "url": article["link"],
+
             "description": description[:4096],
+
             "footer": {
                 "text": (
                     f"RootVerse Cyber News • "
-                    f"Source: {article['source']}"
+                    f"Source: "
+                    f"{article['source']}"
                 )
             }
         }
 
         payload = {
-            "embeds": [embed]
+            "embeds": [
+                embed
+            ]
         }
 
         response = requests.post(
@@ -609,7 +875,10 @@ def send_to_discord(articles):
             timeout=20
         )
 
-        if response.status_code not in (200, 204):
+        if response.status_code not in (
+            200,
+            204
+        ):
 
             raise RuntimeError(
                 f"Discord error "
@@ -621,44 +890,59 @@ def send_to_discord(articles):
             f"Posted: {article['title']}"
         )
 
+        posted.append(
+            article
+        )
 
-# --------------------------------------------------
+        time.sleep(
+            DISCORD_DELAY_SECONDS
+        )
+
+    return posted
+
+
+# ============================================================
 # MAIN
-# --------------------------------------------------
+# ============================================================
 
 def main():
 
     if not DISCORD_WEBHOOK:
 
         raise ValueError(
-            "DISCORD_WEBHOOK secret is missing."
+            "DISCORD_WEBHOOK is missing."
         )
 
-    seen = load_seen_articles()
+    seen = load_seen()
 
     articles = fetch_news(
         seen
     )
 
     print(
-        f"Found {len(articles)} new articles."
+        f"Found {len(articles)} new articles "
+        f"before deduplication."
     )
 
-    # Remove duplicates from today's batch
-    articles = remove_current_duplicates(
+    articles = remove_duplicates(
         articles
     )
 
-    # Score only ranks stories; low-score stories remain eligible.
+    # Score ranks stories only.
+    # Low-score stories are NOT filtered out.
     articles.sort(
-        key=lambda x: x["score"],
+        key=lambda item: item["score"],
         reverse=True
     )
 
-    # Keep up to 10 stories per run.
     articles = articles[
         :MAX_FINAL_ARTICLES
     ]
+
+    print(
+        f"Selected {len(articles)} "
+        f"articles to post."
+    )
 
     if not articles:
 
@@ -668,13 +952,12 @@ def main():
 
         return
 
-    # Send to Discord
-    send_to_discord(
+    posted = send_to_discord(
         articles
     )
 
-    # Remember posted articles
-    for article in articles:
+    # Save only successfully posted articles.
+    for article in posted:
 
         if article["link"] not in seen["urls"]:
 
@@ -682,18 +965,23 @@ def main():
                 article["link"]
             )
 
-        normalized = normalize_title(
+        title = normalize_title(
             article["title"]
         )
 
-        if normalized not in seen["titles"]:
+        if title not in seen["titles"]:
 
             seen["titles"].append(
-                normalized
+                title
             )
 
-    save_seen_articles(
+    save_seen(
         seen
+    )
+
+    print(
+        f"Successfully posted "
+        f"{len(posted)} articles."
     )
 
 
