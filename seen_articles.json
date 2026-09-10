@@ -1,1 +1,26 @@
-
+{
+  "urls": [
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-ivanti-products-could-allow-for-arbitrary-code-execution_2026-093",
+    "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
+    "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/",
+    "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
+    "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/",
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-sap-extended-passport-epp-processing-could-allow-for-remote-code-execution_2026-092",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-excel-kb5002914-update-breaks-copy-and-paste-for-some-users/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-wiped-windows-desktop-settings/",
+    "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
+    "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/"
+  ],
+  "titles": [
+    "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
+    "aipowered attack exploited papercut flaws to hack 395 organizations",
+    "cisco fmc flaws exploited by ransomware gang statesponsored hackers",
+    "new bluemoon kit exploited windows and chrome zeroday flaws",
+    "cisa watchguard rce flaw now exploited in ransomware attacks",
+    "a vulnerability in sap extended passport epp processing could allow for remote code execution",
+    "microsoft excel kb5002914 update breaks copy and paste for some users",
+    "microsoft fixes bug that wiped windows desktop settings",
+    "surfshark vpn says hackers breached internal testing proxy servers",
+    "idscan confirms breach tied to 153 million stolen drivers licenses"
+  ]
+}
