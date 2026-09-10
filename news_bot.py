@@ -494,7 +494,7 @@ def send_to_discord(articles):
         "username": "RootVerse Cyber News",
 
         "content": (
-            "🌐 **ROOTVERSE DAILY CYBER BRIEF**\n"
+            "🌐 **ROOTVERSE | DAILY CYBER NEWS**\n"
             f"📅 {today}\n"
             "━━━━━━━━━━━━━━━━━━━━\n"
             "🏆 **Top Cybersecurity Stories**"
