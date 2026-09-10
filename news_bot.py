@@ -1,4 +1,4 @@
-import os
+
 import re
 import json
 import html
@@ -14,8 +14,8 @@ DISCORD_WEBHOOK = os.getenv("DISCORD_WEBHOOK")
 
 SEEN_FILE = "seen_articles.json"
 
-MAX_ARTICLES_PER_FEED = 5
-MAX_FINAL_ARTICLES = 6
+MAX_ARTICLES_PER_FEED = 10
+MAX_FINAL_ARTICLES = 10          # up to 10 per run = up to ~20/day
 ARTICLE_MAX_AGE_HOURS = 36
 
 
@@ -480,88 +480,129 @@ def severity_icon(severity):
 
 
 # --------------------------------------------------
+# MAKE 5–10 NUMBERED NEWS POINTS
+# --------------------------------------------------
+
+def make_numbered_points(article, minimum=5, maximum=10):
+
+    text = re.sub(
+        r"\s+",
+        " ",
+        article.get("summary", "")
+    ).strip()
+
+    sentences = [
+        s.strip()
+        for s in re.split(r"(?<=[.!?])\s+", text)
+        if len(s.strip()) > 20
+    ]
+
+    points = []
+
+    def add_point(text):
+
+        text = re.sub(r"\s+", " ", text).strip()
+
+        if (
+            text
+            and text not in points
+            and len(points) < maximum
+        ):
+            points.append(text)
+
+    # Keep factual information from the original RSS summary.
+    for sentence in sentences:
+        add_point(sentence)
+
+    # If the source summary is too short, add only general defensive context.
+    extra_points = [
+        f"Reported by {article['source']}.",
+        f"The report is classified as {article['attack_type']}.",
+        "The event is relevant to cybersecurity monitoring and defense.",
+        "Security teams should review the affected technology or environment.",
+        "Defenders should check for related indicators and suspicious activity.",
+        "Organizations should review applicable patches, mitigations or vendor guidance.",
+        "Monitoring and incident-response procedures should be followed where relevant."
+    ]
+
+    for point in extra_points:
+
+        if len(points) >= minimum:
+            break
+
+        add_point(point)
+
+    return "\n".join(
+        f"{number}. {point}"
+        for number, point in enumerate(points[:maximum], 1)
+    )
+
+
+# --------------------------------------------------
 # SEND NEWS TO DISCORD
 # --------------------------------------------------
 
 def send_to_discord(articles):
 
-    today = datetime.now(
-        timezone.utc
-    ).strftime("%d %B %Y")
-
-    embeds = []
-
     for article in articles:
 
-        icon = severity_icon(
-            article["severity"]
+        summary_points = make_numbered_points(
+            article,
+            minimum=5,
+            maximum=10
         )
 
         description = (
-            f"**{icon} {article['severity']}**\n\n"
-            f"{shorten_summary(article['summary'])}\n\n"
-            f"**Source:** {article['source']}"
+            f"**{severity_icon(article['severity'])} "
+            f"{article['severity']} • "
+            f"Security Score: {article['score']}/10**\n\n"
+
+            f"🎯 **Attack Type:**\n"
+            f"{article['attack_type']}\n\n"
+
+            f"💥 **What Happened / Impact:**\n"
+            f"1. {article['impact']}\n\n"
+
+            f"📚 **What You Should Learn:**\n"
+            f"1. {article['learning']}\n\n"
+
+            f"📰 **News Summary:**\n"
+            f"{summary_points}"
         )
 
         embed = {
             "title": article["title"][:256],
             "url": article["link"],
-            "description": description[:2048],
+            "description": description[:4096],
             "footer": {
                 "text": (
                     f"RootVerse Cyber News • "
-                    f"Security Score: "
-                    f"{article['score']}/10"
+                    f"Source: {article['source']}"
                 )
             }
         }
 
-        embeds.append(embed)
+        payload = {
+            "embeds": [embed]
+        }
 
-    payload = {
-
-        "username": "RootVerse Cyber News",
-
-        "content": (
-            "🌐 **ROOTVERSE | DAILY CYBER NEWS**\n"
-            f"📅 {today}\n"
-            "━━━━━━━━━━━━━━━━━━━━\n"
-            "🏆 **Top Cybersecurity Stories**"
-        ),
-
-        "embeds": embeds
-    }
-
-    response = requests.post(
-        DISCORD_WEBHOOK,
-        json=payload,
-        timeout=30
-    )
-
-    if response.status_code in [
-        200,
-        204
-    ]:
-
-        print(
-            "✅ News successfully sent to Discord!"
+        response = requests.post(
+            DISCORD_WEBHOOK,
+            json=payload,
+            timeout=20
         )
 
-    else:
+        if response.status_code not in (200, 204):
+
+            raise RuntimeError(
+                f"Discord error "
+                f"{response.status_code}: "
+                f"{response.text}"
+            )
 
         print(
-            "❌ Discord error:"
+            f"Posted: {article['title']}"
         )
-
-        print(
-            response.status_code
-        )
-
-        print(
-            response.text
-        )
-
-        response.raise_for_status()
 
 
 # --------------------------------------------------
@@ -591,13 +632,13 @@ def main():
         articles
     )
 
-    # Rank by score
+    # Score only ranks stories; low-score stories remain eligible.
     articles.sort(
         key=lambda x: x["score"],
         reverse=True
     )
 
-    # Keep only top stories
+    # Keep up to 10 stories per run.
     articles = articles[
         :MAX_FINAL_ARTICLES
     ]
