@@ -1,0 +1,32 @@
+name: RootVerse Cyber News
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 9 * * *"
+      timezone: "Asia/Kolkata"
+
+jobs:
+  send-news:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Cyber News Bot
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          python news_bot.py
