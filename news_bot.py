@@ -384,8 +384,25 @@ def fetch_news(seen):
                 }
 
                 # Score the article
+                # Score the article
                 article = calculate_score(
                     article
+                )
+
+                # Classify the article
+                article["attack_type"] = classify(article)
+
+                # Get primary attack type for impact and learning
+                primary = article["attack_type"].split(" + ")[0]
+
+                article["impact"] = IMPACT.get(
+                    primary,
+                    "May affect confidentiality, integrity or availability depending on the event."
+                )
+
+                article["learning"] = LEARN.get(
+                    primary,
+                    "Learn how defenders detect, investigate, contain and remediate this type of security event."
                 )
 
                 articles.append(article)
