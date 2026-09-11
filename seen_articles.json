@@ -9,7 +9,9 @@
     "https://www.bleepingcomputer.com/news/microsoft/september-windows-server-updates-break-remote-desktop-services/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-excel-kb5002914-update-breaks-copy-and-paste-for-some-users/",
     "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
-    "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/"
+    "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
+    "https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-resolves-mouse-settings-reset-bug-windows-11-update/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -21,6 +23,8 @@
     "september windows server updates break remote desktop services",
     "microsoft excel kb5002914 update breaks copy and paste for some users",
     "surfshark vpn says hackers breached internal testing proxy servers",
-    "idscan confirms breach tied to 153 million stolen drivers licenses"
+    "idscan confirms breach tied to 153 million stolen drivers licenses",
+    "the top 4 threats we found by investigating every alert for a quarter",
+    "microsoft says september updates fix mouse settings reset issues"
   ]
 }
