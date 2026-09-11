@@ -11,7 +11,13 @@
     "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
     "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
     "https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter/",
-    "https://www.bleepingcomputer.com/news/microsoft/microsoft-resolves-mouse-settings-reset-bug-windows-11-update/"
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-resolves-mouse-settings-reset-bug-windows-11-update/",
+    "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/",
+    "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/",
+    "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
+    "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-pcs/",
+    "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -25,6 +31,12 @@
     "surfshark vpn says hackers breached internal testing proxy servers",
     "idscan confirms breach tied to 153 million stolen drivers licenses",
     "the top 4 threats we found by investigating every alert for a quarter",
-    "microsoft says september updates fix mouse settings reset issues"
+    "microsoft says september updates fix mouse settings reset issues",
+    "artifactory flaws chained in attacks deploying backdoor malware",
+    "conti ransomware gang member sentenced to 4 years in prison",
+    "how threat actors are turning trusted ai platforms into an attack surface",
+    "gitlab urges users to patch max severity path traversal flaw",
+    "microsoft fixes teams outlook launch failures on arm windows pcs",
+    "trezor 347000 users targeted in phishing attacks after brevo breach"
   ]
 }
