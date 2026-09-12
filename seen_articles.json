@@ -17,7 +17,10 @@
     "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
     "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-pcs/",
-    "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/"
+    "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/",
+    "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
+    "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
+    "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -37,6 +40,9 @@
     "how threat actors are turning trusted ai platforms into an attack surface",
     "gitlab urges users to patch max severity path traversal flaw",
     "microsoft fixes teams outlook launch failures on arm windows pcs",
-    "trezor 347000 users targeted in phishing attacks after brevo breach"
+    "trezor 347000 users targeted in phishing attacks after brevo breach",
+    "florida confirms dmv database breached via stolen police account",
+    "passkeythemed phishing attacks lead to microsoft 365 data theft",
+    "hackers abused claude to extract secrets from 18m android apps"
   ]
 }
