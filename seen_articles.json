@@ -21,7 +21,8 @@
     "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
     "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
     "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
-    "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/"
+    "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -45,6 +46,7 @@
     "florida confirms dmv database breached via stolen police account",
     "passkeythemed phishing attacks lead to microsoft 365 data theft",
     "hackers abused claude to extract secrets from 18m android apps",
-    "dutch ncsc critical check point vpn flaws exploitation is imminent"
+    "dutch ncsc critical check point vpn flaws exploitation is imminent",
+    "hackers exploit tencent app flaw to deploy grayrabbit malware"
   ]
 }
