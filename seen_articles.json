@@ -22,7 +22,16 @@
     "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
     "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
     "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
-    "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/"
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-gitlab-could-allow-for-disclosure-of-sensitive-data_2026-094",
+    "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/",
+    "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/",
+    "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-audio-on-some-windows-pcs/",
+    "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/",
+    "https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -47,6 +56,15 @@
     "passkeythemed phishing attacks lead to microsoft 365 data theft",
     "hackers abused claude to extract secrets from 18m android apps",
     "dutch ncsc critical check point vpn flaws exploitation is imminent",
-    "hackers exploit tencent app flaw to deploy grayrabbit malware"
+    "hackers exploit tencent app flaw to deploy grayrabbit malware",
+    "a vulnerability in gitlab could allow for disclosure of sensitive data",
+    "revolut discloses data breach exposing financial info passports",
+    "cisa hackers now exploit max severity gitlab flaw in attacks",
+    "hackers hijack hbo max reddit account to push malware in clickfix ads",
+    "why patch automation needs brakes not just an accelerator",
+    "microsoft september updates cause rds failures on windows server",
+    "microsoft september updates break audio on some windows pcs",
+    "hackers target exposed vite dev servers to steal aws azure secrets",
+    "webinar how malicious oauth apps can lead to google workspace breaches"
   ]
 }
