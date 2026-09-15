@@ -36,7 +36,16 @@
     "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-windows-updates-to-fix-rds-failures/",
     "https://www.bleepingcomputer.com/news/security/homebrew-700-gets-built-in-gui-better-security-controls/",
-    "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/"
+    "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/",
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-cisco-secure-email-products-could-allow-for-remote-code-execution_2026-096",
+    "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/",
+    "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/",
+    "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
+    "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/",
+    "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/",
+    "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/",
+    "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -75,6 +84,15 @@
     "japans digital agency says vpn flaw exposed 246000 personnel records",
     "microsoft releases emergency windows updates to fix rds failures",
     "homebrew 700 gets builtin gui better security controls",
-    "twitch extension with 30k installs exposes users oauth tokens"
+    "twitch extension with 30k installs exposes users oauth tokens",
+    "multiple vulnerabilities in cisco secure email products could allow for remote code execution",
+    "hackers target wordpress sites via thirdparty woocommerce plugin",
+    "what zeroday response should be in the postmythos era",
+    "cisa critical vmware rce flaw now exploited by ransomware gangs",
+    "cisco patches secure email gateway zeroday exploited in attacks",
+    "centerpoint energy confirms customer data stolen in cyberattack",
+    "bambootoken malware controls windows and linux systems via mqtt",
+    "microsoft confirms kb5002914 excel update breaks copy and paste",
+    "suspected black axe gang leaders face cybercrime charges in the us"
   ]
 }
