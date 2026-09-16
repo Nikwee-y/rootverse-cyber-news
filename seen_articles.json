@@ -47,7 +47,14 @@
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/",
     "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/",
     "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
-    "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/"
+    "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
+    "https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/",
+    "https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr/",
+    "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/",
+    "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-missing-outlook-copilot-buttons/",
+    "https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach/",
+    "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-next-month/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -97,6 +104,13 @@
     "microsoft confirms kb5002914 excel update breaks copy and paste",
     "suspected black axe gang leaders face cybercrime charges in the us",
     "acronis warns of actively exploited flaw in its cpanel backup plugin",
-    "malcious admin menu editor pro plugin backdoors 1500 wordpress sites"
+    "malcious admin menu editor pro plugin backdoors 1500 wordpress sites",
+    "spains data agency gets first report of aipowered data breach",
+    "the true cost of a ransomware attack with and without bcdr",
+    "critical screenconnect flaw now actively exploited in attacks",
+    "google fixes actively exploited android zeroday on pixel devices",
+    "microsoft says copilot buttons still missing in classic outlook",
+    "webinar what happens in the first hours of a google workspace breach",
+    "windows server 2022 reaches end of mainstream support next month"
   ]
 }
