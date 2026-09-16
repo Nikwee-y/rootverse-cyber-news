@@ -45,7 +45,9 @@
     "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/",
     "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/",
-    "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/"
+    "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/",
+    "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
+    "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -93,6 +95,8 @@
     "centerpoint energy confirms customer data stolen in cyberattack",
     "bambootoken malware controls windows and linux systems via mqtt",
     "microsoft confirms kb5002914 excel update breaks copy and paste",
-    "suspected black axe gang leaders face cybercrime charges in the us"
+    "suspected black axe gang leaders face cybercrime charges in the us",
+    "acronis warns of actively exploited flaw in its cpanel backup plugin",
+    "malcious admin menu editor pro plugin backdoors 1500 wordpress sites"
   ]
 }
