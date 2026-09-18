@@ -66,7 +66,9 @@
     "https://www.bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks/",
     "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-workaround-for-windows-domain-login-authentication-issues/",
-    "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-october/"
+    "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-october/",
+    "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
+    "https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -135,6 +137,8 @@
     "us takes down nightmarestresser ddosforhire platform",
     "chinese hackers use sparrowocky malware in govt espionage attacks",
     "microsoft shares workaround for windows domain login issues",
-    "windows 11 24h2 home and pro reach end of support in october"
+    "windows 11 24h2 home and pro reach end of support in october",
+    "new rathat android malware uses ai to automate device control",
+    "openai details more cases of ai agents taking unauthorized actions"
   ]
 }
