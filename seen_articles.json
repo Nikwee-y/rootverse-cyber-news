@@ -76,7 +76,11 @@
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/",
     "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
     "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
-    "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/"
+    "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/",
+    "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
+    "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
+    "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
+    "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -155,6 +159,10 @@
     "microsoft fixes broken copy and paste for excel 2016 users",
     "secure enterprise sharing with access reviews for microsoft 365",
     "microsoft teams will let admins block custom file extensions",
-    "microsoft fixes bug behind defender antivirus is turned off alerts"
+    "microsoft fixes bug behind defender antivirus is turned off alerts",
+    "north korean waterplum hackers infected 30000 devices worldwide",
+    "shinyhunters hacks clop leak site threatens to extort ransomware gang",
+    "bragjack attacks hijack ai browser agents through malicious extensions",
+    "viral ai actress hotline facescans every caller watches their mood"
   ]
 }
