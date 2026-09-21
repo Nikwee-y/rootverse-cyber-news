@@ -82,7 +82,14 @@
     "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
     "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
     "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
-    "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/"
+    "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
+    "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-excel-copy-and-paste-for-all-office-users/",
+    "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/",
+    "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -167,6 +174,13 @@
     "bragjack attacks hijack ai browser agents through malicious extensions",
     "viral ai actress hotline facescans every caller watches their mood",
     "malicious npm packages evade installscript defenses at runtime",
-    "researchers escape openai codex sandbox to run commands on host"
+    "researchers escape openai codex sandbox to run commands on host",
+    "wordpress click2shell flaw lets hackers execute php on the server",
+    "microsoft fixes broken excel copy and paste for all office users",
+    "fbis cjis v61 what security teams need to know",
+    "microsoft reminds admins to migrate entra id users to passkeys",
+    "microsoft september updates break file history backup feature",
+    "microsoft to retire microsoft 365 companion apps in december",
+    "google fined 403 million over location data privacy violations"
   ]
 }
