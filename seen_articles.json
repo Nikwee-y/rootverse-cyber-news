@@ -89,7 +89,9 @@
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/",
-    "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/"
+    "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/",
+    "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
+    "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -181,6 +183,8 @@
     "microsoft reminds admins to migrate entra id users to passkeys",
     "microsoft september updates break file history backup feature",
     "microsoft to retire microsoft 365 companion apps in december",
-    "google fined 403 million over location data privacy violations"
+    "google fined 403 million over location data privacy violations",
+    "bigcommerce alerts merchants of data breach linked to ribon apps",
+    "cisa alerts of active exploitation of three linux kernel flaws"
   ]
 }
