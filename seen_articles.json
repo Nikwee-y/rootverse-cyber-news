@@ -98,7 +98,13 @@
     "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
     "https://www.bleepingcomputer.com/news/security/reducing-shadow-it-visibility-gaps-with-wazuh/",
     "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/",
-    "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/"
+    "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/",
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-f5-big-ip-access-policy-manager-could-allow-for-remote-code-execution_2026-098",
+    "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
+    "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
+    "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
+    "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
+    "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -199,6 +205,12 @@
     "cisa orders feds to patch zyxel flaw exploited for data theft",
     "reducing shadow it visibility gaps with wazuh",
     "eviltokens phaas disrupted after compromising 12000 microsoft accounts",
-    "webinar tomorrow inside realworld google workspace breaches"
+    "webinar tomorrow inside realworld google workspace breaches",
+    "a vulnerability in f5 bigip access policy manager could allow for remote code execution",
+    "shinyhunters claims fbi hack data theft in peoplesoft zeroday breach",
+    "chinese hackers exploit wordpress zyxel flaws to steal govt data",
+    "new closedquorum windows malware uses ai for attack decisions",
+    "rogue external mfa providers can steal passwords during logins",
+    "sweden fines miljdata 183000 over breach affecting 22 million"
   ]
 }
