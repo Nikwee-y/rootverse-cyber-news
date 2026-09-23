@@ -104,7 +104,14 @@
     "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
     "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
     "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
-    "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/"
+    "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/",
+    "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
+    "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
+    "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
+    "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
+    "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -211,6 +218,13 @@
     "chinese hackers exploit wordpress zyxel flaws to steal govt data",
     "new closedquorum windows malware uses ai for attack decisions",
     "rogue external mfa providers can steal passwords during logins",
-    "sweden fines miljdata 183000 over breach affecting 22 million"
+    "sweden fines miljdata 183000 over breach affecting 22 million",
+    "malicious ai agents steal 600k credit cards infect 100 sites with skimmers",
+    "infratrust report warns network management systems under attack",
+    "arista patches actively exploited velocloud orchestrator zeroday",
+    "how one kubernetes yaml can hand over a gcp organization",
+    "f5 patches bigip apm zeroday flaw exploited in rce attacks",
+    "ryuk ransomware member sentenced to 24 months in prison",
+    "microsoft september windows updates break always on vpn connections"
   ]
 }
