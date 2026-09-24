@@ -111,7 +111,11 @@
     "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
     "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
     "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
-    "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/"
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/",
+    "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
+    "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
+    "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
+    "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -225,6 +229,10 @@
     "how one kubernetes yaml can hand over a gcp organization",
     "f5 patches bigip apm zeroday flaw exploited in rce attacks",
     "ryuk ransomware member sentenced to 24 months in prison",
-    "microsoft september windows updates break always on vpn connections"
+    "microsoft september windows updates break always on vpn connections",
+    "check point warns of hackers exploiting security gateway vpn rce flaw",
+    "hackers start exploiting critical wordpress flaw for code execution",
+    "new remcontrol android banking malware targets users in europe and canada",
+    "placeholder domain used in dev docs now serves clickfix attacks"
   ]
 }
