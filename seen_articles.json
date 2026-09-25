@@ -122,7 +122,11 @@
     "https://www.bleepingcomputer.com/news/security/fedramp-vdr-and-ver-daily-scans-are-only-the-beginning/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/",
     "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/",
-    "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124010-update-released-with-46-changes-and-fixes/"
+    "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124010-update-released-with-46-changes-and-fixes/",
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2026-101",
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-ibm-concert-software-could-allow-for-remote-code-execution_2026-100",
+    "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
+    "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -247,6 +251,10 @@
     "fedramp vdr ver daily scans are only the beginning",
     "microsoft fixes bug that broke windows file history backup feature",
     "exposed gitlab project email addresses let attackers push code",
-    "windows 11 kb5124010 update released with 46 changes and fixes"
+    "windows 11 kb5124010 update released with 46 changes and fixes",
+    "multiple vulnerabilities in google chrome could allow for arbitrary code execution",
+    "multiple vulnerabilities in ibm concert software could allow for remote code execution",
+    "macsync malware uses public icloud calendars to deliver new payloads",
+    "new carbonato malware uses ai agents to hijack exposed docker hosts"
   ]
 }
