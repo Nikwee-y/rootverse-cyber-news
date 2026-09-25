@@ -126,7 +126,15 @@
     "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2026-101",
     "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-ibm-concert-software-could-allow-for-remote-code-execution_2026-100",
     "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
-    "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/"
+    "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
+    "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/",
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/",
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-a-500-chatgpt-pro-max-plan-with-faster-codex/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/",
+    "https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/",
+    "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -255,6 +263,14 @@
     "multiple vulnerabilities in google chrome could allow for arbitrary code execution",
     "multiple vulnerabilities in ibm concert software could allow for remote code execution",
     "macsync malware uses public icloud calendars to deliver new payloads",
-    "new carbonato malware uses ai agents to hijack exposed docker hosts"
+    "new carbonato malware uses ai agents to hijack exposed docker hosts",
+    "cisa warns of sharepoint wso2 adobe commerce flaws exploited in attacks",
+    "with the rise of ai agents soc 2 should adapt or risk irrelevance",
+    "anthropic rolls out up to 250 in free claude code credits but only for cloud sessions",
+    "openai is preparing a 500 chatgpt pro max plan with faster codex",
+    "microsoft plans to deprecate windows deployment services",
+    "rydox marketplace admin pleads guilty faces 22 years in prison",
+    "microsoft recent windows updates cause desktop loading issues",
+    "hackers steal 3516 million in bitget crypto exchange hack"
   ]
 }
