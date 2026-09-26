@@ -134,7 +134,12 @@
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/",
     "https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/",
-    "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/"
+    "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/",
+    "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
+    "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+    "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-servicenows-ai-platform-could-allow-for-unauthorized-access_2026-102",
+    "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -271,6 +276,11 @@
     "microsoft plans to deprecate windows deployment services",
     "rydox marketplace admin pleads guilty faces 22 years in prison",
     "microsoft recent windows updates cause desktop loading issues",
-    "hackers steal 3516 million in bitget crypto exchange hack"
+    "hackers steal 3516 million in bitget crypto exchange hack",
+    "kiteworks urges 6hour server shutdown over potential zeroday attacks",
+    "shinyhunters hacked clop leak site using grav cms path traversal flaw",
+    "elementor wordpress flaw lets attackers create admin accounts",
+    "multiple vulnerabilities in servicenows ai platform could allow for unauthorized access",
+    "us soldier gets 70 months in prison for att verizon extortions"
   ]
 }
