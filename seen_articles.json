@@ -157,7 +157,9 @@
     "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/",
     "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/",
     "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/",
-    "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/"
+    "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
+    "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
+    "https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -317,6 +319,8 @@
     "over 16000 supabase databases expose pii passwords auth tokens",
     "80000 organizations had ai logins stolen from shadow ai to llmjacking",
     "bitget resumes bitcoin withdrawals after 3875 million crypto heist",
-    "us soldier gets 70 months in prison for extorting 10 tech telecom firms"
+    "us soldier gets 70 months in prison for extorting 10 tech telecom firms",
+    "japans keio confirms ransomware attack disrupted business systems",
+    "times car confirms data breach affecting 66 million user accounts"
   ]
 }
