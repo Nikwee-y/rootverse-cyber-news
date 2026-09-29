@@ -159,7 +159,16 @@
     "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/",
     "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
     "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
-    "https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/"
+    "https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/",
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
+    "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/",
+    "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/",
+    "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/",
+    "https://www.bleepingcomputer.com/news/microsoft/windows-11-2026-update-released-heres-everything-you-need-to-know/",
+    "https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/",
+    "https://www.bleepingcomputer.com/news/security/catch-threats-before-they-escalate-with-real-time-identity-telemetry/",
+    "https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -321,6 +330,15 @@
     "bitget resumes bitcoin withdrawals after 3875 million crypto heist",
     "us soldier gets 70 months in prison for extorting 10 tech telecom firms",
     "japans keio confirms ransomware attack disrupted business systems",
-    "times car confirms data breach affecting 66 million user accounts"
+    "times car confirms data breach affecting 66 million user accounts",
+    "hackers exploit citrix netscaler zeroday to deploy web shells",
+    "former us air force members sent to prison over bec attacks",
+    "kiteworks patches critical flaw brings customer systems online",
+    "apple patches coregraphics zeroday flaw exploited in attacks",
+    "automated ai agent used to breach cybersecurity nonprofit divd",
+    "windows 11 2026 update released heres everything you need to know",
+    "new spectre v2 attack variant leaks linux root password hash in minutes",
+    "catch threats before they escalate with realtime identity telemetry",
+    "vietnamese man charged in 16 million pig butchering crypto scam"
   ]
 }
