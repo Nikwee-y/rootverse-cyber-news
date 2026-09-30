@@ -168,7 +168,11 @@
     "https://www.bleepingcomputer.com/news/microsoft/windows-11-2026-update-released-heres-everything-you-need-to-know/",
     "https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/",
     "https://www.bleepingcomputer.com/news/security/catch-threats-before-they-escalate-with-real-time-identity-telemetry/",
-    "https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/"
+    "https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/",
+    "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
+    "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
+    "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -339,6 +343,10 @@
     "windows 11 2026 update released heres everything you need to know",
     "new spectre v2 attack variant leaks linux root password hash in minutes",
     "catch threats before they escalate with realtime identity telemetry",
-    "vietnamese man charged in 16 million pig butchering crypto scam"
+    "vietnamese man charged in 16 million pig butchering crypto scam",
+    "custom chatgpts push clickfix attacks to deploy rat malware",
+    "microsoft is rolling out linux container support to wsl",
+    "signal adds encypted local backup support to ios desktop apps",
+    "fbi tells shinyhunters members to turn themselves in after recent arrest"
   ]
 }
