@@ -172,7 +172,16 @@
     "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
     "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
-    "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/"
+    "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/",
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-cisco-catalyst-sd-wan-manager-could-allow-for-authentication-bypass_2026-105",
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-apple-products-could-allow-for-arbitrary-code-execution_2026-104",
+    "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
+    "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
+    "https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/",
+    "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
+    "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
+    "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -347,6 +356,15 @@
     "custom chatgpts push clickfix attacks to deploy rat malware",
     "microsoft is rolling out linux container support to wsl",
     "signal adds encypted local backup support to ios desktop apps",
-    "fbi tells shinyhunters members to turn themselves in after recent arrest"
+    "fbi tells shinyhunters members to turn themselves in after recent arrest",
+    "a vulnerability in cisco catalyst sdwan manager could allow for authentication bypass",
+    "a vulnerability in apple products could allow for arbitrary code execution",
+    "cisa warns of critical preauth rce flaw in mikrotik routeros",
+    "cisco warns of new sdwan zeroday exploited in attacks",
+    "bitget hacked via zeroday in thirdparty security products",
+    "teamviewer urges users to patch severe flaws as soon as possible",
+    "over 543000 valid credentials exposed in public github repositories",
+    "ais third wave coworkers break the security model that worked for agents",
+    "microsoft to block entra id script injection attacks starting october"
   ]
 }
