@@ -183,7 +183,13 @@
     "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
     "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
     "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
-    "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/"
+    "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/",
+    "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
+    "https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/",
+    "https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/",
+    "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
+    "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -369,6 +375,12 @@
     "ais third wave coworkers break the security model that worked for agents",
     "microsoft to block entra id script injection attacks starting october",
     "divd says zammad zerodays enabled aidriven network breach",
-    "russian state hackers use new redflick technique to push malware"
+    "russian state hackers use new redflick technique to push malware",
+    "police dismantle killsec ransomware gang allegedly led by 16yearold",
+    "hackers stole pentagon personnel records of over 3 million people",
+    "kiteworks patches max severity code injection vulnerability",
+    "the dayone hole in zero trust architecture",
+    "microsoft enables windows settings backup by default for orgs",
+    "metamask discloses security incident affecting its infrastructure"
   ]
 }
