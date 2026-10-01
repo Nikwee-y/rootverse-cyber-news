@@ -181,7 +181,9 @@
     "https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/",
     "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
     "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
-    "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/"
+    "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
+    "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
+    "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -365,6 +367,8 @@
     "teamviewer urges users to patch severe flaws as soon as possible",
     "over 543000 valid credentials exposed in public github repositories",
     "ais third wave coworkers break the security model that worked for agents",
-    "microsoft to block entra id script injection attacks starting october"
+    "microsoft to block entra id script injection attacks starting october",
+    "divd says zammad zerodays enabled aidriven network breach",
+    "russian state hackers use new redflick technique to push malware"
   ]
 }
