@@ -194,7 +194,14 @@
     "https://www.cisecurity.org/advisory/a-vulnerability-in-wordpress-could-allow-for-remote-code-execution_2026-106",
     "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
     "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
-    "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/"
+    "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-fortinet-fortimail-could-allow-for-arbitrary-code-execution_2026-108",
+    "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
+    "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
+    "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/",
+    "https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/",
+    "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/",
+    "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -391,6 +398,13 @@
     "a vulnerability in wordpress could allow for remote code execution",
     "fortinet warns of critical fortimail flaw exploited in zeroday attacks",
     "autonomous ai agents tried to hack us canadian government websites",
-    "microsoft says threat actors are ahead in the early ai race"
+    "microsoft says threat actors are ahead in the early ai race",
+    "a vulnerability in fortinet fortimail could allow for arbitrary code execution",
+    "gitlab warns of critical rce vulnerability in ai gateway service",
+    "warlock ransomware breach sharepoint in water telecom operator attacks",
+    "dell asks admins to patch max severity csm flaws as soon as possible",
+    "us sanctions tren de aragua gang members in atm hacks crackdown",
+    "the edr blind spot 3 ways browser attacks evade endpoint telemetry",
+    "microsofts x account hacked in crypto pumpanddump scheme"
   ]
 }
