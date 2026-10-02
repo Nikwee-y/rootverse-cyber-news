@@ -189,7 +189,12 @@
     "https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/",
     "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
-    "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/"
+    "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/",
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-kiteworks-epg-email-security-gateway-could-allow-for-arbitrary-code-execution_2026-107",
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-wordpress-could-allow-for-remote-code-execution_2026-106",
+    "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
+    "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
+    "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -381,6 +386,11 @@
     "kiteworks patches max severity code injection vulnerability",
     "the dayone hole in zero trust architecture",
     "microsoft enables windows settings backup by default for orgs",
-    "metamask discloses security incident affecting its infrastructure"
+    "metamask discloses security incident affecting its infrastructure",
+    "a vulnerability in kiteworks epg email security gateway could allow for arbitrary code execution",
+    "a vulnerability in wordpress could allow for remote code execution",
+    "fortinet warns of critical fortimail flaw exploited in zeroday attacks",
+    "autonomous ai agents tried to hack us canadian government websites",
+    "microsoft says threat actors are ahead in the early ai race"
   ]
 }
