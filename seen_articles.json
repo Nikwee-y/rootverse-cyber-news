@@ -203,7 +203,9 @@
     "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/",
     "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
     "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/",
-    "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/"
+    "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
+    "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
+    "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -409,6 +411,8 @@
     "the edr blind spot 3 ways browser attacks evade endpoint telemetry",
     "microsofts x account hacked in crypto pumpanddump scheme",
     "frontline education breach exposes school district employee data",
-    "danish university dtu breach exposes data of up to 200000 people"
+    "danish university dtu breach exposes data of up to 200000 people",
+    "google gemini could soon get full access to your macs files apps and the web",
+    "shinyhunters hacker reportedly detained in jordan aiding fbi"
   ]
 }
