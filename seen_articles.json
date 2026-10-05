@@ -206,7 +206,8 @@
     "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
     "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
     "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
-    "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/"
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
+    "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -415,6 +416,7 @@
     "danish university dtu breach exposes data of up to 200000 people",
     "google gemini could soon get full access to your macs files apps and the web",
     "shinyhunters hacker reportedly detained in jordan aiding fbi",
-    "anthropic asks claude users to share voice data for ai model training"
+    "anthropic asks claude users to share voice data for ai model training",
+    "citrix patches netscaler saml zeroday exploited in attacks"
   ]
 }
