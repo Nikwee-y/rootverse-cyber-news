@@ -234,7 +234,10 @@
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/",
     "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
     "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
-    "https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/"
+    "https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/",
+    "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
+    "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
+    "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -471,6 +474,9 @@
     "microsoft outlook to block msix attachments starting november",
     "shinyhunters extorted boeing spinoff prior to arrests",
     "sonicwall warns of max severity ssrf flaw in sma1000 gateways",
-    "musician sent to prison for 10 million streaming fraud using ai bots"
+    "musician sent to prison for 10 million streaming fraud using ai bots",
+    "ransomware recovery ceo charged over secret ransom payments",
+    "fbi ongoing fortibleed attacks lock out fortigate vpn admins",
+    "hackers hijack google domains after breaching cctld registries"
   ]
 }
