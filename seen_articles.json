@@ -237,7 +237,16 @@
     "https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/",
     "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
     "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
-    "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/"
+    "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
+    "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/",
+    "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/",
+    "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/",
+    "https://www.bleepingcomputer.com/news/security/oauth-grants-pile-up-faster-than-you-can-review-them-heres-how-to-keep-up/",
+    "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/",
+    "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/",
+    "https://www.bleepingcomputer.com/news/security/uranium-crypto-exchange-hacker-found-guilty-of-53-million-theft/",
+    "https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/",
+    "https://www.bleepingcomputer.com/news/security/owner-of-empire-cybercrime-market-gets-40-years-in-prison/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -477,6 +486,15 @@
     "musician sent to prison for 10 million streaming fraud using ai bots",
     "ransomware recovery ceo charged over secret ransom payments",
     "fbi ongoing fortibleed attacks lock out fortigate vpn admins",
-    "hackers hijack google domains after breaching cctld registries"
+    "hackers hijack google domains after breaching cctld registries",
+    "lowcost android phones ship with residential proxy malware",
+    "fakegit malware campaign returns with 17610 malicious github repos",
+    "cisco warns of critical flaws allowing nexus switch takeover",
+    "oauth grants pile up faster than you can review them heres how to keep up",
+    "samsung galaxy s26 hacked three more times at pwn2own ireland",
+    "asos links data breach to social engineering attack credential theft",
+    "uranium crypto exchange hacker convicted for stealing 53 million",
+    "microsoft teams to get support for thirdparty deepfake detection tools",
+    "owner of empire cybercrime market gets 40 years in prison"
   ]
 }
