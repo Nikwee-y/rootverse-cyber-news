@@ -246,7 +246,10 @@
     "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/",
     "https://www.bleepingcomputer.com/news/security/uranium-crypto-exchange-hacker-found-guilty-of-53-million-theft/",
     "https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/",
-    "https://www.bleepingcomputer.com/news/security/owner-of-empire-cybercrime-market-gets-40-years-in-prison/"
+    "https://www.bleepingcomputer.com/news/security/owner-of-empire-cybercrime-market-gets-40-years-in-prison/",
+    "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
+    "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
+    "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -495,6 +498,9 @@
     "asos links data breach to social engineering attack credential theft",
     "uranium crypto exchange hacker convicted for stealing 53 million",
     "microsoft teams to get support for thirdparty deepfake detection tools",
-    "owner of empire cybercrime market gets 40 years in prison"
+    "owner of empire cybercrime market gets 40 years in prison",
+    "hackers get 1262000 for 98 zerodays at pwn2own ireland",
+    "ransomware attack disrupts japans idcf cloud used by govt clients",
+    "fbi disrupts chinese hacking tools used to breach critical infrastructure"
   ]
 }
