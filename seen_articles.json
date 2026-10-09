@@ -249,7 +249,16 @@
     "https://www.bleepingcomputer.com/news/security/owner-of-empire-cybercrime-market-gets-40-years-in-prison/",
     "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
     "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
-    "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/"
+    "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-citrix-netscaler-adc-and-citrix-netscaler-gateway-could-allow-for-remote-code-execution_2026-110",
+    "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/",
+    "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
+    "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/",
+    "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
+    "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-outdated-windows-devices-will-lose-security-protection-next-year/",
+    "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/",
+    "https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -501,6 +510,15 @@
     "owner of empire cybercrime market gets 40 years in prison",
     "hackers get 1262000 for 98 zerodays at pwn2own ireland",
     "ransomware attack disrupts japans idcf cloud used by govt clients",
-    "fbi disrupts chinese hacking tools used to breach critical infrastructure"
+    "fbi disrupts chinese hacking tools used to breach critical infrastructure",
+    "a vulnerability in citrix netscaler adc and citrix netscaler gateway could allow for remote code execution",
+    "how to keep ai agents within their permissions",
+    "unpatched ahsaycbs flaws exploited to deploy webshells mine crypto",
+    "germany arrests alleged core qilin ransomware member after extradition",
+    "citrix warns admins to patch new netscaler rce flaw immediately",
+    "max severity sonicwall sma1000 flaw now exploited in attacks",
+    "microsoft outdated windows devices will stop receiving security updates",
+    "fbi arrests another suspected shinyhunters hacker after agency breach",
+    "man admits to running network of 15000 money mules for cybercriminals"
   ]
 }
