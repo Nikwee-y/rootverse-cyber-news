@@ -260,7 +260,10 @@
     "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/",
     "https://www.bleepingcomputer.com/news/security/ukrainian-russian-dual-citizen-admits-to-laundering-millions-for-cybercriminals/",
     "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-    "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/"
+    "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
+    "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+    "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+    "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -523,6 +526,9 @@
     "fbi arrests another suspected shinyhunters hacker after agency breach",
     "man admits to running network of 15000 money mules for cybercriminals",
     "fbi arrests founder of ransomware negotiation firm",
-    "hackers abuse google ads bing redirects to push claude clickfix attacks"
+    "hackers abuse google ads bing redirects to push claude clickfix attacks",
+    "artex ai claude agents used in cyberattacks on south korean banks",
+    "cyber exec arrested in case allegedly tied to shinyhunters hackers",
+    "criminal ip introduces aitem as the next evolution of attack surface management"
   ]
 }
