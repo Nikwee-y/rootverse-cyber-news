@@ -264,7 +264,17 @@
     "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
     "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
     "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
-    "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/"
+    "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-sonicwall-sma1000-series-appliances-could-allow-for-remote-code-execution_2026-113",
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-atlassian-data-center-products-could-allow-for-arbitrary-file-access_2026-112",
+    "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+    "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
+    "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
+    "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
+    "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
+    "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
+    "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -531,6 +541,16 @@
     "artex ai claude agents used in cyberattacks on south korean banks",
     "cyber exec arrested in case allegedly tied to shinyhunters hackers",
     "criminal ip introduces aitem as the next evolution of attack surface management",
-    "nippon columbia malware incident exposes 86 million karaoke fan records"
+    "nippon columbia malware incident exposes 86 million karaoke fan records",
+    "multiple vulnerabilities in sonicwall sma1000 series appliances could allow for remote code execution",
+    "a vulnerability in atlassian data center products could allow for arbitrary file access",
+    "cyberattack shuts down refrigerators at french supermarkets",
+    "inside avisloader a windows malware loader built to resist disruption",
+    "retail giant ahold delhaize takes systems offline after cyberattack",
+    "gitlab warns of max severity code execution vulnerability",
+    "microsoft windows 11 23h2 reaches end of support in 30 days",
+    "norway fines microsoft ad firm 96 million over grindr data sharing",
+    "yandex confirms service outage as users lose access to cloud files",
+    "anthropic takes risky ai tests offline after models breach govt sites"
   ]
 }
