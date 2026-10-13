@@ -274,7 +274,9 @@
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
     "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
     "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
-    "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/"
+    "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-dell-system-update-could-allow-for-remote-code-execution_2026-111",
+    "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -551,6 +553,8 @@
     "microsoft windows 11 23h2 reaches end of support in 30 days",
     "norway fines microsoft ad firm 96 million over grindr data sharing",
     "yandex confirms service outage as users lose access to cloud files",
-    "anthropic takes risky ai tests offline after models breach govt sites"
+    "anthropic takes risky ai tests offline after models breach govt sites",
+    "multiple vulnerabilities in dell system update could allow for remote code execution",
+    "ledger confirms spy chip implant behind wallet crypto thefts"
   ]
 }
