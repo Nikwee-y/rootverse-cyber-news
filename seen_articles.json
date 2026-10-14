@@ -292,7 +292,15 @@
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
     "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
     "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
-    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/"
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/",
+    "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
+    "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
+    "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
+    "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
+    "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
+    "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/",
+    "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -587,6 +595,14 @@
     "microsoft october 2026 patch tuesday fixes 1411 flaws 3 zerodays",
     "microsoft patches more than 1400 security flaws",
     "anthropic warns selfreplicating ai could spread to your smart devices",
-    "openai engineer arrested for allegedly planting spy device in office"
+    "openai engineer arrested for allegedly planting spy device in office",
+    "global takedown hits network behind 1 billion phishing messages",
+    "cisa warns admins to immediately fix ivanti flaw exploited as zeroday",
+    "uk sanctions cryptomus for ru money laundering",
+    "microsoft fixes vpn issues caused by september windows updates",
+    "hirudo android malware replaces banking apps to evade security checks",
+    "ledger asks sellers across asia to halt sales after supplychain attack",
+    "the blind spots of agentic pentesting and how to close them",
+    "microsoft recent windows updates may trigger remote desktop failures"
   ]
 }
