@@ -285,7 +285,14 @@
     "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
     "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/",
-    "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/"
+    "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-ivanti-connect-secure-could-allow-for-arbitrary-code-execution_2026-115",
+    "https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-october-13-2026_2026-114",
+    "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+    "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+    "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -573,6 +580,13 @@
     "tfg london cyberattack disrupts systems at hobbs and whistles retailers",
     "sap warns of maximum severity oauth2 ssrf security flaw",
     "microsoft windows 11 24h2 home and pro reached end of support",
-    "uk housing ombudsman service investigates security incident"
+    "uk housing ombudsman service investigates security incident",
+    "a vulnerability in ivanti connect secure could allow for arbitrary code execution",
+    "critical patches issued for microsoft products october 13 2026",
+    "ghostscript flaw lets hackers hijack servers via pdf uploads",
+    "microsoft october 2026 patch tuesday fixes 1411 flaws 3 zerodays",
+    "microsoft patches more than 1400 security flaws",
+    "anthropic warns selfreplicating ai could spread to your smart devices",
+    "openai engineer arrested for allegedly planting spy device in office"
   ]
 }
