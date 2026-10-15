@@ -302,7 +302,13 @@
     "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/",
     "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/",
     "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
-    "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/"
+    "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
+    "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/",
+    "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
+    "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
+    "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -607,6 +613,12 @@
     "the blind spots of agentic pentesting and how to close them",
     "microsoft recent windows updates may trigger remote desktop failures",
     "palo alto networks warns of panos rce flaw exploited in attacks",
-    "fbi raids dprk it worker laptop farms in texas us nationals arrested"
+    "fbi raids dprk it worker laptop farms in texas us nationals arrested",
+    "police arrests 95 suspects in international csam crackdown action",
+    "fake arch linux packages push malware with root privileges",
+    "is ai pentesting as good as a human pentester",
+    "microsoft windows server 2022 reached end of mainstream support",
+    "microsoft fixes bug causing windows black screens explorer crashes",
+    "uk legal aid agency hackers stole records dating back to 1978"
   ]
 }
