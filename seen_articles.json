@@ -300,7 +300,9 @@
     "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
     "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
     "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/",
-    "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/"
+    "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/",
+    "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -603,6 +605,8 @@
     "hirudo android malware replaces banking apps to evade security checks",
     "ledger asks sellers across asia to halt sales after supplychain attack",
     "the blind spots of agentic pentesting and how to close them",
-    "microsoft recent windows updates may trigger remote desktop failures"
+    "microsoft recent windows updates may trigger remote desktop failures",
+    "palo alto networks warns of panos rce flaw exploited in attacks",
+    "fbi raids dprk it worker laptop farms in texas us nationals arrested"
   ]
 }
