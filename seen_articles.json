@@ -308,7 +308,10 @@
     "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
-    "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/"
+    "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/",
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+    "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
+    "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -619,6 +622,9 @@
     "is ai pentesting as good as a human pentester",
     "microsoft windows server 2022 reached end of mainstream support",
     "microsoft fixes bug causing windows black screens explorer crashes",
-    "uk legal aid agency hackers stole records dating back to 1978"
+    "uk legal aid agency hackers stole records dating back to 1978",
+    "hackers exploit collabora rce flaw to backdoor nextcloud servers",
+    "android gets ai defenses against messaging scams fake calls",
+    "hackers hijack dlink ubiquiti devices to resell your stolen bandwidth"
   ]
 }
