@@ -311,7 +311,13 @@
     "https://www.bleepingcomputer.com/news/security/uk-legal-aid-agency-hackers-stole-records-dating-back-to-1978/",
     "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
     "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
-    "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/"
+    "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
+    "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
+    "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+    "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
+    "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
+    "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
+    "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -625,6 +631,12 @@
     "uk legal aid agency hackers stole records dating back to 1978",
     "hackers exploit collabora rce flaw to backdoor nextcloud servers",
     "android gets ai defenses against messaging scams fake calls",
-    "hackers hijack dlink ubiquiti devices to resell your stolen bandwidth"
+    "hackers hijack dlink ubiquiti devices to resell your stolen bandwidth",
+    "burger king japan data breach exposes 11 million customer records",
+    "beyondtrust patches zeroday exploited in attacks since august",
+    "microsoft october windows update may break smart app control",
+    "bae systems cyberattack disrupts us federal court operations",
+    "zeroclick attacks used targeted ads to deliver candiru spyware",
+    "employees using personal chatgpt at work heres what it admins need to do"
   ]
 }
