@@ -318,7 +318,9 @@
     "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
     "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
     "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
-    "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/"
+    "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+    "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+    "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -639,6 +641,8 @@
     "bae systems cyberattack disrupts us federal court operations",
     "zeroclick attacks used targeted ads to deliver candiru spyware",
     "employees using personal chatgpt at work heres what it admins need to do",
-    "critical blockstrap flaw lets hackers run code on magento servers"
+    "critical blockstrap flaw lets hackers run code on magento servers",
+    "drupal patches critical rce flaws warns exploits may emerge soon",
+    "hackers breach microsoft 365 tenants via connectwise supplychain attack"
   ]
 }
