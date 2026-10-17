@@ -317,7 +317,8 @@
     "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
     "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
     "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
-    "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/"
+    "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
+    "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -637,6 +638,7 @@
     "microsoft october windows update may break smart app control",
     "bae systems cyberattack disrupts us federal court operations",
     "zeroclick attacks used targeted ads to deliver candiru spyware",
-    "employees using personal chatgpt at work heres what it admins need to do"
+    "employees using personal chatgpt at work heres what it admins need to do",
+    "critical blockstrap flaw lets hackers run code on magento servers"
   ]
 }
