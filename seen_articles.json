@@ -320,7 +320,8 @@
     "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
     "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
     "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
-    "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/"
+    "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -643,6 +644,7 @@
     "employees using personal chatgpt at work heres what it admins need to do",
     "critical blockstrap flaw lets hackers run code on magento servers",
     "drupal patches critical rce flaws warns exploits may emerge soon",
-    "hackers breach microsoft 365 tenants via connectwise supplychain attack"
+    "hackers breach microsoft 365 tenants via connectwise supplychain attack",
+    "hackers exploit siteguard waf flaw to run commands as admins"
   ]
 }
