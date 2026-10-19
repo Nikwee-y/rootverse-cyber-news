@@ -321,7 +321,15 @@
     "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
     "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
     "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
-    "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/"
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+    "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
+    "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+    "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
+    "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
+    "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -645,6 +653,14 @@
     "critical blockstrap flaw lets hackers run code on magento servers",
     "drupal patches critical rce flaws warns exploits may emerge soon",
     "hackers breach microsoft 365 tenants via connectwise supplychain attack",
-    "hackers exploit siteguard waf flaw to run commands as admins"
+    "hackers exploit siteguard waf flaw to run commands as admins",
+    "opencode hack exposes api keys amid ai distillation attacks",
+    "feds suspect ransom negotiator ran shinyhunters extortion site",
+    "bullhorn takes staffing platform offline to contain cyberattack",
+    "f5 releases outofband patches for critical nginx vulnerabilities",
+    "microsoft october windows server updates break exchange signin mail flow",
+    "microsoft fixes game app crashes caused by recent windows update",
+    "inside the underground market for know your client services",
+    "microsoft fixes classic outlook bug that hid copilot buttons"
   ]
 }
