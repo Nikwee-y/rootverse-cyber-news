@@ -329,7 +329,10 @@
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
     "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
-    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/"
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
+    "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
+    "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
+    "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -661,6 +664,9 @@
     "microsoft october windows server updates break exchange signin mail flow",
     "microsoft fixes game app crashes caused by recent windows update",
     "inside the underground market for know your client services",
-    "microsoft fixes classic outlook bug that hid copilot buttons"
+    "microsoft fixes classic outlook bug that hid copilot buttons",
+    "nikkei discloses third data breach in a month 18m records exposed",
+    "wordpress seo plugin rank math compromised to backdoor websites",
+    "hackers hijack aomei update servers to secretly spread malware"
   ]
 }
