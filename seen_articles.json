@@ -332,7 +332,15 @@
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
     "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
     "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
-    "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/"
+    "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-beyondtrust-remote-support-could-allow-for-arbitrary-upload-of-files_2026-117",
+    "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+    "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
+    "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
+    "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
+    "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
+    "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
+    "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -667,6 +675,14 @@
     "microsoft fixes classic outlook bug that hid copilot buttons",
     "nikkei discloses third data breach in a month 18m records exposed",
     "wordpress seo plugin rank math compromised to backdoor websites",
-    "hackers hijack aomei update servers to secretly spread malware"
+    "hackers hijack aomei update servers to secretly spread malware",
+    "a vulnerability in beyondtrust remote support could allow for arbitrary upload of files",
+    "ovhcloud cli releases backdoored on github to steal developer secrets",
+    "hacker gets 8 years for stealing 33 million from taxpayers",
+    "windows server 2025 gets support for quick machine recovery",
+    "ahold delhaize cyberattack affects services across us and europe",
+    "dhs bans deepseek products across us federal civilian agencies",
+    "cjis v61 compliance 5 practical priorities for agencies",
+    "revolut outage disrupts online banking operations worldwide"
   ]
 }
