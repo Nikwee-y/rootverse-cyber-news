@@ -340,7 +340,12 @@
     "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/",
     "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
     "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
-    "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/"
+    "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/",
+    "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+    "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
+    "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+    "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -683,6 +688,11 @@
     "ahold delhaize cyberattack affects services across us and europe",
     "dhs bans deepseek products across us federal civilian agencies",
     "cjis v61 compliance 5 practical priorities for agencies",
-    "revolut outage disrupts online banking operations worldwide"
+    "revolut outage disrupts online banking operations worldwide",
+    "php warns admins of two critical flaws emergency patches coming tomorrow",
+    "stolen updraftcentral keys used to backdoor wordpress sites",
+    "mozilla google apple block compromised emudhra ca certificates",
+    "zeabur shutting down after second security breach in two months",
+    "openai says gpt61 sol is dramatically better at migrating legacy code"
   ]
 }
