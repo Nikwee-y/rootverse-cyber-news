@@ -345,7 +345,15 @@
     "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
     "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
     "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
-    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/"
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-remote-code-execution_2026-119",
+    "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+    "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+    "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+    "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
+    "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -693,6 +701,14 @@
     "stolen updraftcentral keys used to backdoor wordpress sites",
     "mozilla google apple block compromised emudhra ca certificates",
     "zeabur shutting down after second security breach in two months",
-    "openai says gpt61 sol is dramatically better at migrating legacy code"
+    "openai says gpt61 sol is dramatically better at migrating legacy code",
+    "multiple vulnerabilities in php could allow for remote code execution",
+    "php ships emergency patches for critical php2shell flaws",
+    "widespread php flaw may cause many site outages today",
+    "cisa safepay ransomware hit over 600 critical infrastructure orgs",
+    "clickfix has never been bigger and ai tools are its most convincing lure yet",
+    "openai agents disabled safety monitoring one lied about it",
+    "microsoft powertoys adds cursorhide button lock mouse tools",
+    "microsoft says october updates didnt actually fix vpn issues"
   ]
 }
