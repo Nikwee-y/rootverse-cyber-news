@@ -353,7 +353,11 @@
     "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
     "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
-    "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/"
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
+    "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
+    "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+    "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
+    "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -709,6 +713,10 @@
     "clickfix has never been bigger and ai tools are its most convincing lure yet",
     "openai agents disabled safety monitoring one lied about it",
     "microsoft powertoys adds cursorhide button lock mouse tools",
-    "microsoft says october updates didnt actually fix vpn issues"
+    "microsoft says october updates didnt actually fix vpn issues",
+    "cisa hackers chain plex flaws in plex2shell attacks to breach servers",
+    "japans onamae desktop cloud hacked up to 27000 servers affected",
+    "lazarus hackers use postquantum cryptography for malware delivery",
+    "google chrome adds geminipowered scam detection warns users of clickfix attacks"
   ]
 }
