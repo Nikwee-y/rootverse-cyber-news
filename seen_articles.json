@@ -362,7 +362,10 @@
     "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
     "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
     "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
-    "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/"
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
+    "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+    "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+    "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -727,6 +730,9 @@
     "machine speed attacks require machine speed detection and response",
     "amazon says php2shell exploitation began 4 days before patches",
     "authorities disrupt nearly 11000 cybercrime networks in africa",
-    "microsoft shares how to fix broken exchange online ews apps"
+    "microsoft shares how to fix broken exchange online ews apps",
+    "capcom confirms data breach affecting 117 million accounts",
+    "litellm release pipeline hacked to distribute infostealer malware",
+    "railway warns devs to rotate secrets after potential breach"
   ]
 }
