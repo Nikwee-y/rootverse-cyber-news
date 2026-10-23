@@ -365,7 +365,12 @@
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
     "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
     "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
-    "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/"
+    "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+    "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+    "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
+    "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+    "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -733,6 +738,11 @@
     "microsoft shares how to fix broken exchange online ews apps",
     "capcom confirms data breach affecting 117 million accounts",
     "litellm release pipeline hacked to distribute infostealer malware",
-    "railway warns devs to rotate secrets after potential breach"
+    "railway warns devs to rotate secrets after potential breach",
+    "php shares mitigation for new rce vulnerability with no patch",
+    "you gave your ai agent access but who is giving it orders",
+    "hpe patches eight max severity rce and auth bypass aos flaws",
+    "quest diagnostics confirms data breach exposed patient records",
+    "microsoft windows server 2016 reaches end of support in january"
   ]
 }
