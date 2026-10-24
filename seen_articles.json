@@ -370,7 +370,9 @@
     "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
     "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
     "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
-    "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/"
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
+    "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -743,6 +745,8 @@
     "you gave your ai agent access but who is giving it orders",
     "hpe patches eight max severity rce and auth bypass aos flaws",
     "quest diagnostics confirms data breach exposed patient records",
-    "microsoft windows server 2016 reaches end of support in january"
+    "microsoft windows server 2016 reaches end of support in january",
+    "abandoned popcorn time app exposed millions of devices to rce attacks",
+    "microsoft teams to get aipowered contextaware phishing detection"
   ]
 }
