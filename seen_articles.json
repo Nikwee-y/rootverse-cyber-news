@@ -372,7 +372,8 @@
     "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
     "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
-    "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/"
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+    "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -747,6 +748,7 @@
     "quest diagnostics confirms data breach exposed patient records",
     "microsoft windows server 2016 reaches end of support in january",
     "abandoned popcorn time app exposed millions of devices to rce attacks",
-    "microsoft teams to get aipowered contextaware phishing detection"
+    "microsoft teams to get aipowered contextaware phishing detection",
+    "blackx uefi bootkit exploits baton drop flaw to bypass secure boot"
   ]
 }
