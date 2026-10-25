@@ -373,7 +373,8 @@
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
     "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
-    "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
+    "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+    "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -749,6 +750,7 @@
     "microsoft windows server 2016 reaches end of support in january",
     "abandoned popcorn time app exposed millions of devices to rce attacks",
     "microsoft teams to get aipowered contextaware phishing detection",
-    "blackx uefi bootkit exploits baton drop flaw to bypass secure boot"
+    "blackx uefi bootkit exploits baton drop flaw to bypass secure boot",
+    "ai coding agents hijacked using agentsmd file in downloads folder"
   ]
 }
