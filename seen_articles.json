@@ -374,7 +374,14 @@
     "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
     "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
-    "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/"
+    "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+    "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
+    "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+    "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+    "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
+    "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
+    "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -751,6 +758,13 @@
     "abandoned popcorn time app exposed millions of devices to rce attacks",
     "microsoft teams to get aipowered contextaware phishing detection",
     "blackx uefi bootkit exploits baton drop flaw to bypass secure boot",
-    "ai coding agents hijacked using agentsmd file in downloads folder"
+    "ai coding agents hijacked using agentsmd file in downloads folder",
+    "dreamhost forces password resets in ongoing incident",
+    "microsoft releases emergency net patches for critical brotli flaw",
+    "php2shell security flaws now sucessfully exploited in the wild",
+    "critical http2shell brotli vulnerability triggers emergency patches",
+    "when an ai agent is the incident the identity record is the evidence",
+    "chinese man extradited for role in 36 million cryptocurrency scam",
+    "kali linux 20263 released with 6 new tools desktop updates"
   ]
 }
