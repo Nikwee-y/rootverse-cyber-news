@@ -381,7 +381,10 @@
     "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
     "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
     "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
-    "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/"
+    "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
+    "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+    "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -765,6 +768,9 @@
     "critical http2shell brotli vulnerability triggers emergency patches",
     "when an ai agent is the incident the identity record is the evidence",
     "chinese man extradited for role in 36 million cryptocurrency scam",
-    "kali linux 20263 released with 6 new tools desktop updates"
+    "kali linux 20263 released with 6 new tools desktop updates",
+    "university of copenhagen data breach exposes data of 525000 people",
+    "former pentester used artex ai to steal 82 million data records",
+    "openai launches gpt61 terra with 3x faster ai agents 50 lower pricing"
   ]
 }
