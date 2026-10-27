@@ -384,7 +384,15 @@
     "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
     "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
     "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
-    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/"
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-brotli-library-could-allow-for-remote-code-execution_2026-120",
+    "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+    "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
+    "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
+    "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+    "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -771,6 +779,14 @@
     "kali linux 20263 released with 6 new tools desktop updates",
     "university of copenhagen data breach exposes data of 525000 people",
     "former pentester used artex ai to steal 82 million data records",
-    "openai launches gpt61 terra with 3x faster ai agents 50 lower pricing"
+    "openai launches gpt61 terra with 3x faster ai agents 50 lower pricing",
+    "a vulnerability in brotli library could allow for remote code execution",
+    "tailscale warns of ssh flaws allowing root privilege escalation",
+    "apple backports coregraphics zeroday patches to older iphones",
+    "cisa confirms php2shell vulnerabilities now exploited in attacks",
+    "energy giant engie discloses data breach affecting customers",
+    "microsoft releases windows oob updates to distrust emudhra certificates",
+    "warp discloses breach exposing ai agent logs user telemetry data",
+    "the huntress tragic quadrant ranking threats hitting businesses hardest"
   ]
 }
