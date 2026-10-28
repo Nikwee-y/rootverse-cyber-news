@@ -392,7 +392,11 @@
     "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
     "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
-    "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/"
+    "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+    "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+    "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
+    "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -787,6 +791,10 @@
     "energy giant engie discloses data breach affecting customers",
     "microsoft releases windows oob updates to distrust emudhra certificates",
     "warp discloses breach exposing ai agent logs user telemetry data",
-    "the huntress tragic quadrant ranking threats hitting businesses hardest"
+    "the huntress tragic quadrant ranking threats hitting businesses hardest",
+    "hackers hijack convertr analytics script to steal payment card data",
+    "japans gmo urges customers to shut down pcs amid ransomware threat",
+    "unm health ransomware attack disrupts patient care surgeries",
+    "openais gpt61 terra is safer overall but shows more destructiveaction flags in tests"
   ]
 }
