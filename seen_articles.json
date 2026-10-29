@@ -405,7 +405,8 @@
     "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
     "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
-    "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/"
+    "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
+    "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -813,6 +814,7 @@
     "nefilim and hive ransomware affiliate gets 70 months in prison",
     "microsoft urges entra id admins to migrate users to passkeys",
     "hackers now scanning systems for recentlypatched oracle flaw",
-    "discord to let search engines index public server messages"
+    "discord to let search engines index public server messages",
+    "police seize virtualine bulletproof service tied to ransowmare cybercrime"
   ]
 }
