@@ -419,7 +419,14 @@
     "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
     "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
     "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
-    "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/"
+    "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
+    "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+    "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+    "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
+    "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -841,6 +848,13 @@
     "openai doubles chatgpt pro usage limits after backlash over planned 50 cut",
     "binance probes potential 58 billion cryptotheft hack",
     "polymarket halts trading after cryptodraining script breach 25m traced",
-    "fake crypto app on apple app store linked to 23k wallet theft"
+    "fake crypto app on apple app store linked to 23k wallet theft",
+    "ss7 and diameter attacks how signaling flaws expose your phone",
+    "cisa says max severity gitlab flaw now exploited in the wild",
+    "drupal warns of critical commerce core flaw exploited in attacks",
+    "binance links 63 billion crypto theft to compromised devops laptop",
+    "malicious claude code extension on cursor planted ssh backdoors",
+    "microsoft finally fixes vpn issues caused by september updates",
+    "trezor warns of suspected cryptotheft implant in hardware wallet"
   ]
 }
