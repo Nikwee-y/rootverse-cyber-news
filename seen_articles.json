@@ -412,7 +412,14 @@
     "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
     "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
-    "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/"
+    "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
+    "https://www.cisecurity.org/advisory/a-vulnerability-in-cisco-secure-firewall-asa-and-ftd-could-allow-for-denial-of-service_2026-124",
+    "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
+    "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
+    "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+    "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
+    "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -827,6 +834,13 @@
     "new cisco firewall zeroday exploited to crash ssl vpn devices",
     "chrome extensions with 134 million installs caught hijacking searches",
     "microsoft fixes remote desktop failures caused by recent windows updates",
-    "3 ways ai agents already operate in your browser"
+    "3 ways ai agents already operate in your browser",
+    "a vulnerability in cisco secure firewall asa and ftd could allow for denial of service",
+    "hugging face malware campaign returns to hijack gpus for crypto mining",
+    "japan airlines suffers thirdparty data breach exposing passenger info",
+    "openai doubles chatgpt pro usage limits after backlash over planned 50 cut",
+    "binance probes potential 58 billion cryptotheft hack",
+    "polymarket halts trading after cryptodraining script breach 25m traced",
+    "fake crypto app on apple app store linked to 23k wallet theft"
   ]
 }
