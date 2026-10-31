@@ -426,7 +426,8 @@
     "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
     "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
-    "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/"
+    "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+    "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -855,6 +856,7 @@
     "binance links 63 billion crypto theft to compromised devops laptop",
     "malicious claude code extension on cursor planted ssh backdoors",
     "microsoft finally fixes vpn issues caused by september updates",
-    "trezor warns of suspected cryptotheft implant in hardware wallet"
+    "trezor warns of suspected cryptotheft implant in hardware wallet",
+    "critical linux kernel flaw allows remote root attacks on mptcp servers"
   ]
 }
