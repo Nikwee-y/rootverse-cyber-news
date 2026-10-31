@@ -427,7 +427,11 @@
     "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
     "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
-    "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/"
+    "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+    "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+    "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+    "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+    "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -857,6 +861,10 @@
     "malicious claude code extension on cursor planted ssh backdoors",
     "microsoft finally fixes vpn issues caused by september updates",
     "trezor warns of suspected cryptotheft implant in hardware wallet",
-    "critical linux kernel flaw allows remote root attacks on mptcp servers"
+    "critical linux kernel flaw allows remote root attacks on mptcp servers",
+    "new android sms of death exploit can remotely crash unpatched phones",
+    "chainalysis discloses data breach from offensive agentic techniques",
+    "from beginner to bug hunter learning cybersecurity in the ai era",
+    "reddit to lock content behind logins to fight scrapers"
   ]
 }
