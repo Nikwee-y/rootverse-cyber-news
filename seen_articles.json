@@ -432,7 +432,9 @@
     "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
     "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
     "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
-    "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/"
+    "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+    "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -867,6 +869,8 @@
     "chainalysis discloses data breach from offensive agentic techniques",
     "from beginner to bug hunter learning cybersecurity in the ai era",
     "reddit to lock content behind logins to fight scrapers",
-    "northflank security breach leads to abuse of customers ai api keys"
+    "northflank security breach leads to abuse of customers ai api keys",
+    "alpine linux rebuilds gitlab after attempted rce attack",
+    "openai says its doubling pro usage limits and bringing work features to chat"
   ]
 }
