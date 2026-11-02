@@ -435,7 +435,17 @@
     "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
     "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
     "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
-    "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/"
+    "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+    "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+    "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+    "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
+    "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
+    "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
+    "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+    "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
+    "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -873,6 +883,16 @@
     "northflank security breach leads to abuse of customers ai api keys",
     "alpine linux rebuilds gitlab after attempted rce attack",
     "openai says its doubling pro usage limits and bringing work features to chat",
-    "fbi links 63 billion binance crypto heist to north korean hackers"
+    "fbi links 63 billion binance crypto heist to north korean hackers",
+    "chinese hackers use artex ai in automated attacks against 200 orgs",
+    "btcpay server warns of hot wallet crypto thefts on outdated instances",
+    "over 1000 gitlab servers vulnerable to ongoing rce attacks",
+    "ivanti patches two more connect secure zerodays chained in attacks",
+    "synology warns of c3rb3r ransomware attacks targeting nas devices",
+    "fintech platform sageworks taken offline after suspected cyberattack",
+    "google disrupts milliondevice xcpe android malware botnet bans tv box maker",
+    "hackers disrupt refrigeration systems at european supermarkets",
+    "microsoft fixes smart app control broken by october windows update",
+    "your mobile carrier stores your call logs for years"
   ]
 }
