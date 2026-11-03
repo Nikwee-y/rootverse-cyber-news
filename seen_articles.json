@@ -446,7 +446,15 @@
     "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
     "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
-    "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/"
+    "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+    "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/",
+    "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+    "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
+    "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+    "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
+    "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
+    "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+    "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -895,6 +903,14 @@
     "hackers disrupt refrigeration systems at european supermarkets",
     "microsoft fixes smart app control broken by october windows update",
     "your mobile carrier stores your call logs for years",
-    "tech firms dismantle botnet that turned 13m tv boxes into proxies"
+    "tech firms dismantle botnet that turned 13m tv boxes into proxies",
+    "police seizes over 100 servers in investment scam crackdown",
+    "uk school estate hit by 3am ransomware in suspected aiassisted attack",
+    "harvard university data breach exposed info of 851000 accounts",
+    "binance says fake job interview led to 63 billion crypto heist",
+    "barracuda warns of critical flaws allowing root access to devices",
+    "google adds new 250000 cloud vrp reward for rootincloud bugs",
+    "google llmjacking attacks rack up 1 million in cloud ai charges",
+    "gartner predicts socs will have 50 more engineers than analysts by 2028"
   ]
 }
