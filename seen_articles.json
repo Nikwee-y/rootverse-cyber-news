@@ -445,7 +445,8 @@
     "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
     "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
-    "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/"
+    "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
+    "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -893,6 +894,7 @@
     "google disrupts milliondevice xcpe android malware botnet bans tv box maker",
     "hackers disrupt refrigeration systems at european supermarkets",
     "microsoft fixes smart app control broken by october windows update",
-    "your mobile carrier stores your call logs for years"
+    "your mobile carrier stores your call logs for years",
+    "tech firms dismantle botnet that turned 13m tv boxes into proxies"
   ]
 }
