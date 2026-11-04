@@ -456,7 +456,16 @@
     "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
     "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
     "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
-    "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/"
+    "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+    "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+    "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
+    "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+    "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+    "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+    "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
+    "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
+    "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -915,6 +924,15 @@
     "google llmjacking attacks rack up 1 million in cloud ai charges",
     "gartner predicts socs will have 50 more engineers than analysts by 2028",
     "workos says attacker used artex ai to breach internal sales app",
-    "hackers hijack cpguard autoupdate to deploy backdoor steal data"
+    "hackers hijack cpguard autoupdate to deploy backdoor steal data",
+    "dreamhost confirms data breach exposed ftp logins and webmail sessions",
+    "cisa flags wordpress rce flaw as actively exploited in attacks",
+    "hackers use nday exploits in zeroclick attacks on ios android devices",
+    "cyberattack disrupts blood storage refrigeration systems in france",
+    "nikke pc game launcher hacked to spread remote access datastealing malware",
+    "msecure password manager hack prompts password reset warnings",
+    "google calendar phishing campaign hijacks sessions bypasses mfa",
+    "sonicwall warns of unpatched flaws in endoflife gms software",
+    "us charges two canadians accused of hacking us universities"
   ]
 }
