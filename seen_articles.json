@@ -454,7 +454,9 @@
     "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
     "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
     "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
-    "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/"
+    "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+    "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+    "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -911,6 +913,8 @@
     "barracuda warns of critical flaws allowing root access to devices",
     "google adds new 250000 cloud vrp reward for rootincloud bugs",
     "google llmjacking attacks rack up 1 million in cloud ai charges",
-    "gartner predicts socs will have 50 more engineers than analysts by 2028"
+    "gartner predicts socs will have 50 more engineers than analysts by 2028",
+    "workos says attacker used artex ai to breach internal sales app",
+    "hackers hijack cpguard autoupdate to deploy backdoor steal data"
   ]
 }
