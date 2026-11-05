@@ -465,7 +465,10 @@
     "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
     "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
     "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
-    "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/"
+    "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
+    "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+    "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+    "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -933,6 +936,9 @@
     "msecure password manager hack prompts password reset warnings",
     "google calendar phishing campaign hijacks sessions bypasses mfa",
     "sonicwall warns of unpatched flaws in endoflife gms software",
-    "us charges two canadians accused of hacking us universities"
+    "us charges two canadians accused of hacking us universities",
+    "vercel rolls out new protection against stolen session cookie attacks",
+    "zyxel fixes zeroday exploited to hack nearly 1000 network switches",
+    "want to rent an internet address at the white house"
   ]
 }
