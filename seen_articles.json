@@ -477,7 +477,14 @@
     "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
     "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
     "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
-    "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/"
+    "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+    "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+    "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+    "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+    "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
+    "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
+    "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+    "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -957,6 +964,13 @@
     "openais gpt6 astra silently obstructed safety research tasks",
     "closing the identity gap at the service desk",
     "fbi cisa warn of cyberattacks targeting refrigeration systems",
-    "fake openai spacex events used to steal microsoft google accounts"
+    "fake openai spacex events used to steal microsoft google accounts",
+    "qnap says hackers breaching nas devices in plex2shell attacks",
+    "dlink warns of multiple zerodays in dgs3130 series switches",
+    "fake security tools on github push backdoors and infostealers",
+    "veeam warns of software appliance boot failures on amd epyc hosts",
+    "imsi vs imei what your phone broadcasts and who can read it",
+    "chainalysis says breach exposed credentials for all customers",
+    "metamask says recent attack didnt affect wallet infrastructure"
   ]
 }
