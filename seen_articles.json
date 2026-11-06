@@ -475,7 +475,9 @@
     "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
     "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
     "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
-    "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/"
+    "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
+    "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+    "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -953,6 +955,8 @@
     "hackers backdoor linux servers using trojanized cwp web server",
     "truffle security launches program to revoke 14 million live secrets",
     "openais gpt6 astra silently obstructed safety research tasks",
-    "closing the identity gap at the service desk"
+    "closing the identity gap at the service desk",
+    "fbi cisa warn of cyberattacks targeting refrigeration systems",
+    "fake openai spacex events used to steal microsoft google accounts"
   ]
 }
