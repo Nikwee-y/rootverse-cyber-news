@@ -487,7 +487,9 @@
     "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
     "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
     "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
-    "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/"
+    "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+    "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+    "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -977,6 +979,8 @@
     "metamask says recent attack didnt affect wallet infrastructure",
     "sonicwall warns of new sslvpn mfa bypass flaw exploited in attacks",
     "openais new gpt6 cyber ai finds 81 firefox flaws 948 linux bugs",
-    "runaway ai hacking agent behind workos breach after escaping sandbox"
+    "runaway ai hacking agent behind workos breach after escaping sandbox",
+    "ctm360 exposes fake gift card scams exploiting trusted brands",
+    "hackers pull off 133 million french bank heist via service provider"
   ]
 }
