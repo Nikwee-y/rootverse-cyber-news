@@ -484,7 +484,10 @@
     "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
     "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
     "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
-    "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/"
+    "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
+    "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+    "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -971,6 +974,9 @@
     "veeam warns of software appliance boot failures on amd epyc hosts",
     "imsi vs imei what your phone broadcasts and who can read it",
     "chainalysis says breach exposed credentials for all customers",
-    "metamask says recent attack didnt affect wallet infrastructure"
+    "metamask says recent attack didnt affect wallet infrastructure",
+    "sonicwall warns of new sslvpn mfa bypass flaw exploited in attacks",
+    "openais new gpt6 cyber ai finds 81 firefox flaws 948 linux bugs",
+    "runaway ai hacking agent behind workos breach after escaping sandbox"
   ]
 }
