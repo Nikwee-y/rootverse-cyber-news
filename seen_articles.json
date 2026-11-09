@@ -490,7 +490,17 @@
     "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
     "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
     "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
-    "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/"
+    "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+    "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+    "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+    "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
+    "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+    "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+    "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+    "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+    "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
+    "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -983,6 +993,16 @@
     "runaway ai hacking agent behind workos breach after escaping sandbox",
     "ctm360 exposes fake gift card scams exploiting trusted brands",
     "hackers pull off 133 million french bank heist via service provider",
-    "iris ohyama data cloud breach exposes info of 77 million customers"
+    "iris ohyama data cloud breach exposes info of 77 million customers",
+    "cisa adds four known exploited vulnerabilities to catalog",
+    "nable takes cloud platform offline after 30 zerodays published",
+    "russian cloud firm beget rebuilds from scratch after data wiper attack",
+    "sega newsletter data breach exposes 22 million email addresses",
+    "binance denies data breach after alleged shinyhunters claims",
+    "hackers exploit sshole openssh flaw to breach linux systems",
+    "france blames iranian hackers for supermarket attacks that sparked fires",
+    "york university breach exposed personal information dating to 2007",
+    "the biggest threat to your grc job isnt ai its ignoring ai",
+    "fbi agent stole 25 million in crypto from hackers under investigation"
   ]
 }
