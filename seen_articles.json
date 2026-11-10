@@ -501,7 +501,17 @@
     "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
     "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
     "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
-    "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/"
+    "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+    "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-sonicwall-sonicos-could-allow-for-authentication-bypass_2026-126",
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+    "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
+    "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
+    "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
+    "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
+    "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1005,6 +1015,16 @@
     "york university breach exposed personal information dating to 2007",
     "the biggest threat to your grc job isnt ai its ignoring ai",
     "fbi agent stole 25 million in crypto from hackers under investigation",
-    "vanderbilt university hit in byod ransomware attack data theft claimed"
+    "vanderbilt university hit in byod ransomware attack data theft claimed",
+    "microsoft november 2026 patch tuesday fixes 1235 flaws outlook zeroday",
+    "critical xen orchestra auth bypass flaw exploited to hijack vm servers",
+    "multiple vulnerabilities in sonicwall sonicos could allow for authentication bypass",
+    "hackers exploit trusted aws access to breach multiple cloud environments",
+    "ransomware recovery is now a client retention metric",
+    "turla hackers use new cereal malware to spy on govt exchange servers",
+    "hackers now exploit critical barracuda esg flaws to gain root access",
+    "windows 11 kb5132061 kb5131087 cumulative updates released",
+    "binance warns of ios flaw that could leak crypto wallet secrets",
+    "sap patches icm2shell and proxygate maximum severity flaws"
   ]
 }
