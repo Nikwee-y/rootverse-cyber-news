@@ -500,7 +500,8 @@
     "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
     "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
     "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
-    "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/"
+    "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
+    "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1003,6 +1004,7 @@
     "france blames iranian hackers for supermarket attacks that sparked fires",
     "york university breach exposed personal information dating to 2007",
     "the biggest threat to your grc job isnt ai its ignoring ai",
-    "fbi agent stole 25 million in crypto from hackers under investigation"
+    "fbi agent stole 25 million in crypto from hackers under investigation",
+    "vanderbilt university hit in byod ransomware attack data theft claimed"
   ]
 }
