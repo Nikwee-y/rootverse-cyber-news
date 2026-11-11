@@ -511,7 +511,10 @@
     "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
     "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
     "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
-    "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/"
+    "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/",
+    "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+    "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+    "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1025,6 +1028,9 @@
     "hackers now exploit critical barracuda esg flaws to gain root access",
     "windows 11 kb5132061 kb5131087 cumulative updates released",
     "binance warns of ios flaw that could leak crypto wallet secrets",
-    "sap patches icm2shell and proxygate maximum severity flaws"
+    "sap patches icm2shell and proxygate maximum severity flaws",
+    "microsoft fixes nearly 1100 security vulnerabilities",
+    "railway breach leads to 740000 in fraudulent ai charges",
+    "japanese furniture giant nitori says hackers stole 376m customer records"
   ]
 }
