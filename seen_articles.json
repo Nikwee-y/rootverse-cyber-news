@@ -514,7 +514,17 @@
     "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/",
     "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
     "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
-    "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/"
+    "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
+    "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+    "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
+    "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+    "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+    "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+    "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+    "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
+    "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1031,6 +1041,16 @@
     "sap patches icm2shell and proxygate maximum severity flaws",
     "microsoft fixes nearly 1100 security vulnerabilities",
     "railway breach leads to 740000 in fraudulent ai charges",
-    "japanese furniture giant nitori says hackers stole 376m customer records"
+    "japanese furniture giant nitori says hackers stole 376m customer records",
+    "hackers use antifox ai agents in aws credentialtheft attacks",
+    "ebpf rootkits why underground actors are taking notice",
+    "nable releases security hotfixes for zeroday vulnerabilities",
+    "cisa flags cisco broadworks flaw as actively exploited in attacks",
+    "baker tilly notifies clients of data breach at thirdparty provider",
+    "active screenconnect attacks breach msps impact dozens of organizations",
+    "maersk confirms data breach as whitearmor ransomware demands 5 million",
+    "who runs the ransomware group qilin",
+    "microsoft fixes audio issues caused by september security updates",
+    "emudhra revokes 8 more ca certificates after private key mishap"
   ]
 }
