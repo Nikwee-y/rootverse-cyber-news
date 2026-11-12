@@ -524,7 +524,17 @@
     "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
     "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
-    "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/"
+    "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
+    "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
+    "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+    "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
+    "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
+    "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+    "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1051,6 +1061,16 @@
     "maersk confirms data breach as whitearmor ransomware demands 5 million",
     "who runs the ransomware group qilin",
     "microsoft fixes audio issues caused by september security updates",
-    "emudhra revokes 8 more ca certificates after private key mishap"
+    "emudhra revokes 8 more ca certificates after private key mishap",
+    "siemens desigo gridscale",
+    "siemens ruggedcom ape1808",
+    "siemens building automation and energy products",
+    "siemens industrial edge management",
+    "new nable 4everable2shell zeroday exploited hours after poc released",
+    "apache http server patches critical http2 remote code execution flaw",
+    "new windows signdrop zeroday gives hackers system privileges",
+    "police dismantle gootloader castlerat stealc malware infrastructure",
+    "hackers plant gsocket on linux servers for persistent access",
+    "your endpoint management platform could be your biggest security risk"
   ]
 }
