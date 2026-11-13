@@ -534,7 +534,12 @@
     "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
     "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
     "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
-    "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/"
+    "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
+    "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+    "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
+    "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+    "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1071,6 +1076,11 @@
     "new windows signdrop zeroday gives hackers system privileges",
     "police dismantle gootloader castlerat stealc malware infrastructure",
     "hackers plant gsocket on linux servers for persistent access",
-    "your endpoint management platform could be your biggest security risk"
+    "your endpoint management platform could be your biggest security risk",
+    "new wormlike sckit malware targets msps in screenconnect attacks",
+    "hackers compromise 4800 github accounts to steal cloud credentials",
+    "microsoft recent windows updates cause sql server performance issues",
+    "massive microsoft 365 outage disrupts outlook teams copilot worldwide",
+    "apify rotates api tokens prompts 2fa resets after breach"
   ]
 }
