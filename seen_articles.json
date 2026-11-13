@@ -539,7 +539,15 @@
     "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
     "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
-    "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/"
+    "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
+    "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+    "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+    "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
+    "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+    "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+    "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1081,6 +1089,14 @@
     "hackers compromise 4800 github accounts to steal cloud credentials",
     "microsoft recent windows updates cause sql server performance issues",
     "massive microsoft 365 outage disrupts outlook teams copilot worldwide",
-    "apify rotates api tokens prompts 2fa resets after breach"
+    "apify rotates api tokens prompts 2fa resets after breach",
+    "check point warns of zeroday flaw exploited for root access",
+    "german military drone operations disrupted by cyberattack",
+    "check point gateways hacked via php2shell to deploy vmware esxi wiper",
+    "microsoft says november security updates cause printing issues",
+    "microsoft confirms windows activation failures after november updates",
+    "trezor confirms cryptostealing implants in three wallets releases fix",
+    "how one ai agent exposed five critical enterprise security gaps",
+    "police arrest 354 suspects in dark web cybercrime crackdown"
   ]
 }
