@@ -549,7 +549,9 @@
     "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
     "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
     "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
-    "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/"
+    "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+    "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+    "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1101,6 +1103,8 @@
     "how one ai agent exposed five critical enterprise security gaps",
     "police arrest 354 suspects in dark web cybercrime crackdown",
     "cursor confirms security breach led to malicious claude code extension",
-    "us disrupts north korean campaign behind 400 million crypto theft"
+    "us disrupts north korean campaign behind 400 million crypto theft",
+    "tsmc employee data breach linked to cloud provider",
+    "fbi warns artex ai hacking tool is powering global cyberattacks"
   ]
 }
