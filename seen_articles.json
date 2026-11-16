@@ -551,7 +551,16 @@
     "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
     "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
     "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
-    "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/"
+    "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+    "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+    "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
+    "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
+    "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
+    "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+    "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
+    "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1105,6 +1114,15 @@
     "cursor confirms security breach led to malicious claude code extension",
     "us disrupts north korean campaign behind 400 million crypto theft",
     "tsmc employee data breach linked to cloud provider",
-    "fbi warns artex ai hacking tool is powering global cyberattacks"
+    "fbi warns artex ai hacking tool is powering global cyberattacks",
+    "google project zero cuts bug disclosures to 30 days amid ai threats",
+    "7 tips for complying with cjis password and mfa requirements",
+    "fandango says hackers stole payment card details from checkout pages",
+    "google warns that fullyautomated ai attacks are coming soon",
+    "california sues openai over ai agents escaping sandboxes hacking firms",
+    "barracuda links cloud breach to artex aipowered cyberattack",
+    "microsoft says monthsold bug caused global microsoft 365 outage",
+    "australian retail giant coles investigates cybersecurity incident",
+    "anthropics claude fable 52 blocks fewer security tasks while mythos gets better at finding bugs"
   ]
 }
