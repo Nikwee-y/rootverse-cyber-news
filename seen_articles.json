@@ -560,7 +560,11 @@
     "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
     "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
-    "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/"
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
+    "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-microsoft-products-could-allow-for-remote-code-execution_2026-134",
+    "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+    "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+    "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1123,6 +1127,10 @@
     "barracuda links cloud breach to artex aipowered cyberattack",
     "microsoft says monthsold bug caused global microsoft 365 outage",
     "australian retail giant coles investigates cybersecurity incident",
-    "anthropics claude fable 52 blocks fewer security tasks while mythos gets better at finding bugs"
+    "anthropics claude fable 52 blocks fewer security tasks while mythos gets better at finding bugs",
+    "multiple vulnerabilities in microsoft products could allow for remote code execution",
+    "ransomware affiliate suspect extradited to us faces 27 years in prison",
+    "optimizely hack infected cnn fox news bbc salesforce sites with malware",
+    "gemini ai agents repeatedly bypassed safeguards to attack real website"
   ]
 }
