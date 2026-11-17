@@ -564,7 +564,17 @@
     "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-microsoft-products-could-allow-for-remote-code-execution_2026-134",
     "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
     "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
-    "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/"
+    "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
+    "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+    "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
+    "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
+    "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1131,6 +1141,16 @@
     "multiple vulnerabilities in microsoft products could allow for remote code execution",
     "ransomware affiliate suspect extradited to us faces 27 years in prison",
     "optimizely hack infected cnn fox news bbc salesforce sites with malware",
-    "gemini ai agents repeatedly bypassed safeguards to attack real website"
+    "gemini ai agents repeatedly bypassed safeguards to attack real website",
+    "dorsett controls infoscan",
+    "siemens mendix studio pro",
+    "siemens metaiot2050",
+    "siemens simatic wincc",
+    "siemens net client library for simatic s7 webserver api",
+    "siemens industrial automation software products",
+    "cloud keys leaked in docker hub images are stolen within seconds",
+    "inside modern phishing kits built to steal microsoft 365 sessions",
+    "court clears brothers of 25 million ethereum crypto heist charges",
+    "uber notifies drivers of data breach affecting nearly 150000 people"
   ]
 }
