@@ -584,7 +584,15 @@
     "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
     "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
     "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
-    "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/"
+    "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
+    "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
+    "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+    "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+    "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+    "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
+    "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
+    "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1171,6 +1179,14 @@
     "critical java4shell flaw allows rce attacks on major java applications",
     "japan takes fugaku supercomputer offlline after cyberattack",
     "tor releases emergency update amid ongoing ddos attack",
-    "apple reports outages affecting icloud mail applecare and more"
+    "apple reports outages affecting icloud mail applecare and more",
+    "data breach impacts 40 irish credit unions in reported it provider hack",
+    "apache warns of roller rce vulnerability exploited in attacks",
+    "coinbase blocks 47 million in transfers to elon musk deepfake scam",
+    "microsofts agent framework pypi package compromised to steal credentials",
+    "from deepfakes to helpdesk impersonation why stronger verification matters",
+    "dizigom illegal streaming service with 21m monthly visits shuts down",
+    "microsoft announces windows server 2028 with hardened security",
+    "british scattered spider hacker sentenced to 6 years in prison"
   ]
 }
