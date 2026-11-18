@@ -574,7 +574,17 @@
     "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
     "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
     "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
-    "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/"
+    "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+    "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
+    "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+    "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+    "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
+    "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
+    "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1151,6 +1161,16 @@
     "cloud keys leaked in docker hub images are stolen within seconds",
     "inside modern phishing kits built to steal microsoft 365 sessions",
     "court clears brothers of 25 million ethereum crypto heist charges",
-    "uber notifies drivers of data breach affecting nearly 150000 people"
+    "uber notifies drivers of data breach affecting nearly 150000 people",
+    "siemens ros",
+    "critical java vulnerability requires immediate patching",
+    "siemens industrial software products",
+    "siemens simcenter femap",
+    "siemens simatic",
+    "attackers used optimizely to ab test malware on top websites",
+    "critical java4shell flaw allows rce attacks on major java applications",
+    "japan takes fugaku supercomputer offlline after cyberattack",
+    "tor releases emergency update amid ongoing ddos attack",
+    "apple reports outages affecting icloud mail applecare and more"
   ]
 }
