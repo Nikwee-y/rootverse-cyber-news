@@ -593,7 +593,17 @@
     "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
     "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
-    "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/"
+    "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+    "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+    "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+    "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+    "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+    "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+    "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1189,6 +1199,16 @@
     "dizigom illegal streaming service with 21m monthly visits shuts down",
     "microsoft announces windows server 2028 with hardened security",
     "british scattered spider hacker sentenced to 6 years in prison",
-    "ukraine fbi arrest ransomware gang members tied to 40m in ransoms"
+    "ukraine fbi arrest ransomware gang members tied to 40m in ransoms",
+    "elecbrakes eb2 vm1 elbc2000",
+    "autonomy logic openplc runtime",
+    "php security updates fix 18 flaws including critical rce bugs",
+    "libumqtt",
+    "transport for london breach exposes 265000 oyster card users data",
+    "critical nginx nginx2root bugs let attackers hijack servers",
+    "drupal patches critical rce flaw warns exploits may surface quickly",
+    "five warning signs of ransomware breach before encryption or data theft",
+    "nvidia investigating gentlemen ransomware breach claims",
+    "microsoft confirms app installation launch issues after hotpatch"
   ]
 }
