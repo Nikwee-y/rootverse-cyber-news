@@ -607,7 +607,14 @@
     "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
     "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
     "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
-    "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/"
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
+    "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
+    "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
+    "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
+    "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
+    "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
+    "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1217,6 +1224,13 @@
     "vmware patches vcenter zeroday exploited in attacks since september",
     "hackers steal data of 16 million sbc medical group customers",
     "asus warns of critical hardcoded key flaw in control center express",
-    "microsoft tests new edge lockdown mode that disables gpu apis"
+    "microsoft tests new edge lockdown mode that disables gpu apis",
+    "hackers use autonomous ai tool cairn to find zeroday take over server",
+    "vendor data breach exposes chase visa mastercard customer info",
+    "f5 releases emergency patches for critical bigip rce flaws",
+    "bell canada says agentic hacker stole enterprise customer data",
+    "still tracking company passwords in spreadsheets youre flying blind",
+    "nable says recent security breach led to major service outage",
+    "microsoft now automatically installs windows 11 26h2 on unmanaged devices"
   ]
 }
