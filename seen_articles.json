@@ -603,7 +603,11 @@
     "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
     "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
     "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
-    "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/"
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
+    "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+    "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
+    "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1209,6 +1213,10 @@
     "drupal patches critical rce flaw warns exploits may surface quickly",
     "five warning signs of ransomware breach before encryption or data theft",
     "nvidia investigating gentlemen ransomware breach claims",
-    "microsoft confirms app installation launch issues after hotpatch"
+    "microsoft confirms app installation launch issues after hotpatch",
+    "vmware patches vcenter zeroday exploited in attacks since september",
+    "hackers steal data of 16 million sbc medical group customers",
+    "asus warns of critical hardcoded key flaw in control center express",
+    "microsoft tests new edge lockdown mode that disables gpu apis"
   ]
 }
