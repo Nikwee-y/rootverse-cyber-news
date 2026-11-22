@@ -621,7 +621,10 @@
     "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
     "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
     "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
-    "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/"
+    "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+    "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+    "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+    "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1245,6 +1248,9 @@
     "fbi reportedly hacked again this time targeting nationwide police database",
     "microsoft entra connect health flaw exploited to steal tenant data",
     "badbox botnet returns with recordbreaking 40 billion daily ad requests",
-    "rackspace spot breach let hackers access customer kubernetes secrets"
+    "rackspace spot breach let hackers access customer kubernetes secrets",
+    "cleverbridge warns hackers stole credit card numbers cvvs in data breach",
+    "hackers exploit glinet cloud flaw to infect routers kvm devices",
+    "signal to block siri gemini ai from capturing chats on ios android"
   ]
 }
