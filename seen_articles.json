@@ -620,7 +620,8 @@
     "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
     "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
     "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
-    "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/"
+    "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+    "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1243,6 +1244,7 @@
     "cto of ransomwarehelp indicted for wire fraud",
     "fbi reportedly hacked again this time targeting nationwide police database",
     "microsoft entra connect health flaw exploited to steal tenant data",
-    "badbox botnet returns with recordbreaking 40 billion daily ad requests"
+    "badbox botnet returns with recordbreaking 40 billion daily ad requests",
+    "rackspace spot breach let hackers access customer kubernetes secrets"
   ]
 }
