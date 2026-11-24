@@ -634,7 +634,17 @@
     "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
     "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
-    "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/"
+    "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+    "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
+    "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+    "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
+    "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+    "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
+    "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+    "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1271,6 +1281,16 @@
     "openrouter drops ai providers over leaked prompts and secrets",
     "ai agents are creating a shared responsibility gap",
     "microsoft testing fix for windows 11 bluetooth audio quality drops",
-    "call center operator gets 8 years for helping scam 30000 americans"
+    "call center operator gets 8 years for helping scam 30000 americans",
+    "danfoss aksm 8xxa series",
+    "schneider electric ecostruxure power build rapsody software",
+    "automationdirect cmore ea9 programming software",
+    "police disrupt 57 illegal streaming services with 73 million visits",
+    "hackers compromise check point servers in 22 organizations",
+    "mcdonalds japan data breach exposes customer location information",
+    "turnitin discloses cyberattack affecting customerfacing systems",
+    "from vulnerability noise to resilience rethinking security in the ai era",
+    "rackspace shuts down spot cloud platform after security breach",
+    "new inception extortion gang launches largescale vishing campaign"
   ]
 }
