@@ -625,7 +625,16 @@
     "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
     "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
     "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
-    "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/"
+    "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+    "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+    "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
+    "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
+    "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
+    "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+    "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
+    "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1253,6 +1262,15 @@
     "cleverbridge warns hackers stole credit card numbers cvvs in data breach",
     "hackers exploit glinet cloud flaw to infect routers kvm devices",
     "signal to block siri gemini ai from capturing chats on ios android",
-    "cisa flags critical cisco rce flaw as actively exploited in attacks"
+    "cisa flags critical cisco rce flaw as actively exploited in attacks",
+    "south koreas power giant kepco confirms data breach impacting 15 million",
+    "microsoft azure flaw exploited to steal customers api credentials",
+    "microsoft confirms windows printing issues affecting forcepoint users",
+    "spanish laliga confirms hackers stole soccer fans personal data",
+    "globetopper loses 25 million after hackers steal 70k in gift cards",
+    "openrouter drops ai providers over leaked prompts and secrets",
+    "ai agents are creating a shared responsibility gap",
+    "microsoft testing fix for windows 11 bluetooth audio quality drops",
+    "call center operator gets 8 years for helping scam 30000 americans"
   ]
 }
