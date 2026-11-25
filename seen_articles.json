@@ -644,7 +644,11 @@
     "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
     "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
     "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
-    "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/"
+    "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+    "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
+    "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+    "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
+    "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1291,6 +1295,10 @@
     "turnitin discloses cyberattack affecting customerfacing systems",
     "from vulnerability noise to resilience rethinking security in the ai era",
     "rackspace shuts down spot cloud platform after security breach",
-    "new inception extortion gang launches largescale vishing campaign"
+    "new inception extortion gang launches largescale vishing campaign",
+    "hackers reportedly breached cia intelligence analysis system",
+    "radware discloses breach exposing customer cloud access keys",
+    "shinyhunters claims to return after fbi arrests uses old pgp keys as proof",
+    "european commission confirms data theft in eu academy breach"
   ]
 }
