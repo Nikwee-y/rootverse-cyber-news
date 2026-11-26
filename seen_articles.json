@@ -657,7 +657,12 @@
     "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
     "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
     "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
-    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/"
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
+    "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+    "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+    "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+    "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1317,6 +1322,11 @@
     "infratrust warns of exploited supply chain flaws in network appliances",
     "italy and switzerland warn of autonomous aidriven cyberattacks",
     "more pentests without more pentesters where ai safely helps",
-    "microsoft fixes microsoft 365 bug blocking access to office apps"
+    "microsoft fixes microsoft 365 bug blocking access to office apps",
+    "remus malware steals gmail messages via fake google sheets extension",
+    "sys010 malware abuses browser management to spy on gmail outlook",
+    "fake paid expert interviews impersonate brands to steal google logins",
+    "openai warns gpt62 astra will hit usage limits 40 faster because it fixed a bug",
+    "nordvpn black friday deal get 78 off vpn plans in 2026"
   ]
 }
