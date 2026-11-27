@@ -662,7 +662,8 @@
     "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
     "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
     "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
-    "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/"
+    "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
+    "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/"
   ],
   "titles": [
     "multiple vulnerabilities in ivanti products could allow for arbitrary code execution",
@@ -1327,6 +1328,7 @@
     "sys010 malware abuses browser management to spy on gmail outlook",
     "fake paid expert interviews impersonate brands to steal google logins",
     "openai warns gpt62 astra will hit usage limits 40 faster because it fixed a bug",
-    "nordvpn black friday deal get 78 off vpn plans in 2026"
+    "nordvpn black friday deal get 78 off vpn plans in 2026",
+    "new nfs2root linux flaw can let attackers gain root privileges"
   ]
 }
